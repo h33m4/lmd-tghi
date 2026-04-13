@@ -1,0 +1,182 @@
+[
+    {
+        "okrID": "2.2",
+        "fy_year_quarter": "2026-1",
+        "managed": 0,
+        "kpi_name": "Incentive (Correct & On-time Payment)",
+        "category": "0",
+        "frequency": 665,
+        "percent": 81.8
+    },
+    {
+        "okrID": "2.2",
+        "fy_year_quarter": "2026-1",
+        "managed": 0,
+        "kpi_name": "Incentive (Correct & On-time Payment)",
+        "category": "1",
+        "frequency": 148,
+        "percent": 18.2
+    },
+    {
+        "okrID": "2.6",
+        "fy_year_quarter": "2026-1",
+        "managed": 0,
+        "kpi_name": "Supervision (2+ Visits)",
+        "category": "0",
+        "frequency": 177,
+        "percent": 21.8
+    },
+    {
+        "okrID": "2.6",
+        "fy_year_quarter": "2026-1",
+        "managed": 0,
+        "kpi_name": "Supervision (2+ Visits)",
+        "category": "1",
+        "frequency": 636,
+        "percent": 78.2
+    },
+    {
+        "okrID": "2.4",
+        "fy_year_quarter": "2026-1",
+        "managed": 0,
+        "kpi_name": "Commodities (All Lifesaving in Stock)",
+        "category": "1",
+        "frequency": 156,
+        "percent": 19.2
+    },
+    {
+        "okrID": "2.4",
+        "fy_year_quarter": "2026-1",
+        "managed": 0,
+        "kpi_name": "Commodities (All Lifesaving in Stock)",
+        "category": "0",
+        "frequency": 657,
+        "percent": 80.8
+    },
+    {
+        "okrID": "",
+        "fy_year_quarter": "2026-1",
+        "managed": 0,
+        "kpi_name": "CHC Exists",
+        "category": "1",
+        "frequency": 761,
+        "percent": 93.6
+    },
+    {
+        "okrID": "",
+        "fy_year_quarter": "2026-1",
+        "managed": 0,
+        "kpi_name": "CHC Exists",
+        "category": "0",
+        "frequency": 52,
+        "percent": 6.4
+    },
+    {
+        "okrID": "2.3",
+        "fy_year_quarter": "2026-1",
+        "managed": 0,
+        "kpi_name": "CHC Meeting (Last Month)",
+        "category": "0",
+        "frequency": 322,
+        "percent": 42.3
+    },
+    {
+        "okrID": "2.3",
+        "fy_year_quarter": "2026-1",
+        "managed": 0,
+        "kpi_name": "CHC Meeting (Last Month)",
+        "category": "1",
+        "frequency": 439,
+        "percent": 57.7
+    },
+    {
+        "okrID": "2.2",
+        "fy_year_quarter": "2026-1",
+        "managed": 1,
+        "kpi_name": "Incentive (Correct & On-time Payment)",
+        "category": "0",
+        "frequency": 3,
+        "percent": 2.8
+    },
+    {
+        "okrID": "2.2",
+        "fy_year_quarter": "2026-1",
+        "managed": 1,
+        "kpi_name": "Incentive (Correct & On-time Payment)",
+        "category": "1",
+        "frequency": 105,
+        "percent": 97.2
+    },
+    {
+        "okrID": "2.6",
+        "fy_year_quarter": "2026-1",
+        "managed": 1,
+        "kpi_name": "Supervision (2+ Visits)",
+        "category": "1",
+        "frequency": 105,
+        "percent": 97.2
+    },
+    {
+        "okrID": "2.6",
+        "fy_year_quarter": "2026-1",
+        "managed": 1,
+        "kpi_name": "Supervision (2+ Visits)",
+        "category": "0",
+        "frequency": 3,
+        "percent": 2.8
+    },
+    {
+        "okrID": "2.4",
+        "fy_year_quarter": "2026-1",
+        "managed": 1,
+        "kpi_name": "Commodities (All Lifesaving in Stock)",
+        "category": "0",
+        "frequency": 99,
+        "percent": 91.7
+    },
+    {
+        "okrID": "2.4",
+        "fy_year_quarter": "2026-1",
+        "managed": 1,
+        "kpi_name": "Commodities (All Lifesaving in Stock)",
+        "category": "1",
+        "frequency": 9,
+        "percent": 8.3
+    },
+    {
+        "okrID": "",
+        "fy_year_quarter": "2026-1",
+        "managed": 1,
+        "kpi_name": "CHC Exists",
+        "category": "1",
+        "frequency": 105,
+        "percent": 97.2
+    },
+    {
+        "okrID": "",
+        "fy_year_quarter": "2026-1",
+        "managed": 1,
+        "kpi_name": "CHC Exists",
+        "category": "0",
+        "frequency": 3,
+        "percent": 2.8
+    },
+    {
+        "okrID": "2.3",
+        "fy_year_quarter": "2026-1",
+        "managed": 1,
+        "kpi_name": "CHC Meeting (Last Month)",
+        "category": "0",
+        "frequency": 93,
+        "percent": 88.6
+    },
+    {
+        "okrID": "2.3",
+        "fy_year_quarter": "2026-1",
+        "managed": 1,
+        "kpi_name": "CHC Meeting (Last Month)",
+        "category": "1",
+        "frequency": 12,
+        "percent": 11.4
+    }
+]

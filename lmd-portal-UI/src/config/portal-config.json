@@ -1,0 +1,42 @@
+{
+  "forceLogoutAfter": null,
+  "layoutFlags": {
+    "topBannerEnabled": true,
+    "topBannerMessage": "LMD 2.0 is currently undergoing scheduled maintenance, so some features may be slower than usual. Apologies for any inconvenience.",
+    "topBannerType": "success",
+    "topBannerLinkText": "",
+    "topBannerLinkUrl": "",
+    "topBannerSeenVersion": 4,
+    "topBannerIcon": "wrench",
+    "topBannerCustomColor": ""
+  },
+  "banners": [
+    {
+      "id": "banner-migrated",
+      "message": "LMD 2.0 is currently undergoing scheduled maintenance, so some features may be slower than usual. Apologies for any inconvenience.",
+      "type": "success",
+      "icon": "wrench",
+      "customColor": "",
+      "enabled": true,
+      "seenVersion": 5,
+      "createdAt": "2026-04-01T12:47:02.077Z"
+    }
+  ],
+  "navBadges": [
+    {
+      "id": "nb-1775049358388",
+      "route": "/external-kpi-dashboard",
+      "label": "UPDATED",
+      "type": "updated",
+      "color": "purple"
+    }
+  ],
+  "announcements": [],
+  "welcomeTour": {
+    "enabled": false,
+    "seenVersion": 2,
+    "title": "Welcome to LMD Portal 2.0",
+    "subtitle": "jjjjjj",
+    "steps": []
+  }
+}

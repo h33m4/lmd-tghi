@@ -1,0 +1,2001 @@
+[
+  {
+    "okrId": "1.1",
+    "objectiveToc": "STRENGTHEN",
+    "objective": "Partner with Government of Liberia and community health coalition to increase government ownership and sustainable financing, strengthen community health workforce, integrate gender mainstreaming and institutionalize the National Community Health Program within the Liberian Health Sector.",
+    "keyResult": "30% of gaps identified from the annual capacity development plan for four MOH directorates (CHSD, HFU, HMER and HRH) are identified gaps addressed by Q4 (BIRCH, Co-Impact, LGT)",
+    "priority": 4,
+    "tracking": {
+      "status": "on_track",
+      "progress": 80,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Initial assessment for all directorates",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-08-25"
+        },
+        {
+          "milestone": "Training workshops completed",
+          "dueDate": "2025-10-31",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 0,
+      "targetValue": 30,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valueHint": "Enter a value between 0 and 100 representing the percentage of identified capacity gaps that have been addressed. Where 0 means no gaps addressed and 100 means all identified gaps have been fully addressed.",
+      "valuePrompt": "Percentage of gaps identified that have been addressed"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 10,
+        "narrative": "Initial assessment completed for CHSD and HFU. Capacity gaps documented.",
+        "risks": [
+          "Risk1",
+          "Risk2"
+        ],
+        "mitigations": [
+          "Mitigation1",
+          "Mitigation2"
+        ]
+      },
+      {
+        "month": "08_2025",
+        "value": 18,
+        "narrative": "Training workshops initiated to address HRH capacity needs."
+      },
+      {
+        "month": "09_2025",
+        "value": 24,
+        "narrative": "Three directorates met 70% of their capacity goals. Momentum strong."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "1.2",
+    "objectiveToc": "STRENGTHEN",
+    "objective": "Partner with Government of Liberia and community health coalition to increase government ownership and sustainable financing, strengthen community health workforce, integrate gender mainstreaming and institutionalize the National Community Health Program within the Liberian Health Sector.",
+    "keyResult": "CHW master list is fully utilized by the MOH with 80% of CHWs data incorporated by Q3 (BIRCH)",
+    "priority": 5,
+    "tracking": {
+      "status": "achieved",
+      "progress": 81,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Data integration pilot completed",
+          "dueDate": "2025-08-15",
+          "status": "completed",
+          "completionDate": "2025-08-10"
+        },
+        {
+          "milestone": "System fully operational",
+          "dueDate": "2025-09-30",
+          "status": "completed",
+          "completionDate": "2025-09-30"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 0,
+      "targetValue": 80,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valuePrompt": "Percentage of CHWs data incorporated into master list",
+      "valueHint": "Enter a value between 0 and 100 representing the percentage of CHW data integrated in the CHW masterlist. Where 0 means no data integrated and 100 means all CHW data fully integrated."
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-03-31"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 45,
+        "narrative": "Data integration began across three pilot counties."
+      },
+      {
+        "month": "08_2025",
+        "value": 55,
+        "narrative": "System sync improved, with 10% more CHW records uploaded."
+      },
+      {
+        "month": "09_2025",
+        "value": 65,
+        "narrative": "MOH fully using system for CHW tracking in 8 counties."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "1.3",
+    "objectiveToc": "STRENGTHEN",
+    "objective": "Partner with Government of Liberia and community health coalition to increase government ownership and sustainable financing, strengthen community health workforce, integrate gender mainstreaming and institutionalize the National Community Health Program within the Liberian Health Sector.",
+    "keyResult": "10% improvement in maturity model assessment scores related to Supply Chain in LMH managed county as compared to the previous year is achieved by Q4 (BIRCH, LGT)",
+    "priority": 3,
+    "tracking": {
+      "status": "delayed",
+      "progress": 60,
+      "confidenceLevel": "medium",
+      "milestones": []
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 0,
+      "targetValue": 10,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valueHint": "Enter a value between 0 and 100 representing the percentage improvement in maturity model assessment scores related to Supply Chain. Where 0 means no improvement and 100 means full improvement as per the target.",
+      "valuePrompt": "Percentage improvement in maturity model assessment scores related to Supply Chain"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 3,
+        "narrative": "Supply chain mapping completed in two counties.",
+        "risks": [
+          "Vendor contract delays"
+        ],
+        "mitigations": [
+          "Identified backup suppliers"
+        ]
+      },
+      {
+        "month": "08_2025",
+        "value": 5,
+        "narrative": "Training rollout delayed due to vendor contract issues."
+      },
+      {
+        "month": "09_2025",
+        "value": 6,
+        "narrative": "Catch-up plan initiated to reach target by Q4."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "1.4",
+    "objectiveToc": "STRENGTHEN",
+    "objective": "Partner with Government of Liberia and community health coalition to increase government ownership and sustainable financing, strengthen community health workforce, integrate gender mainstreaming and institutionalize the National Community Health Program within the Liberian Health Sector.",
+    "keyResult": "Collaborate with the MOH to ensure that at least 12 counties have secured funding for the NCHP for at least a year.",
+    "priority": 5,
+    "tracking": {
+      "status": "on_track",
+      "progress": 83,
+      "confidenceLevel": "high",
+      "milestones": []
+    },
+    "measurement": {
+      "unit": "counties",
+      "baseline": 0,
+      "targetValue": 12,
+      "minValue": 0,
+      "maxValue": 15,
+      "calculationMethod": "latest",
+      "valueHint": "Enter the number of counties that have secured funding for the NCHP for at least a year. Where 0 means no counties funded and 15 means all targeted counties have secured funding.",
+      "valuePrompt": "Number of counties funded for NCHP"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 8,
+        "narrative": "Funding secured in eight counties through MOH partnership."
+      },
+      {
+        "month": "08_2025",
+        "value": 9,
+        "narrative": "Donor engagement strengthened in two new regions."
+      },
+      {
+        "month": "09_2025",
+        "value": 10,
+        "narrative": "Agreements signed with GOL for two additional counties."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "count",
+      "chartType": "geomap",
+      "metricUnit": "counties"
+    }
+  },
+  {
+    "okrId": "1.5",
+    "objectiveToc": "STRENGTHEN",
+    "objective": "Partner with Government of Liberia and community health coalition to increase government ownership and sustainable financing, strengthen community health workforce, integrate gender mainstreaming and institutionalize the National Community Health Program within the Liberian Health Sector.",
+    "keyResult": "Financial resources available to implement core community health services in Grand Bassa secured by the start of Q3",
+    "priority": 5,
+    "tracking": {
+      "status": "achieved",
+      "progress": 100,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Proposal submitted",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-15"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "yes_no",
+      "baseline": 0,
+      "targetValue": 1,
+      "minValue": 0,
+      "maxValue": 1,
+      "calculationMethod": "latest",
+      "valueHint": "Click to select whether financial resources have been secured to implement core community health services in Grand Bassa by the start of Q3.",
+      "valuePrompt": "Financial resources secured?"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-01-01"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 0,
+        "narrative": "Proposal submitted to MOH and awaiting approval."
+      },
+      {
+        "month": "08_2025",
+        "value": 1,
+        "narrative": "Funding confirmed for Grand Bassa activities."
+      },
+      {
+        "month": "09_2025",
+        "value": 1,
+        "narrative": "Program launched with full budget allocation."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "yes_no",
+      "chartType": "yes_no",
+      "metricUnit": "Financial Resource Available"
+    }
+  },
+  {
+    "okrId": "2.1",
+    "objectiveToc": "DELIVER",
+    "objective": "Improve County Health Team's capacity to deliver high quality community health services in counties of direct implementation.",
+    "keyResult": "80% of CHAs trained in LMH supported counties received a passing score on the post-training skills assessment for the revised paper-based NCHP curriculum",
+    "priority": 4,
+    "tracking": {
+      "status": "on_track",
+      "progress": 75,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Training curriculum revised",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-25"
+        },
+        {
+          "milestone": "All counties trained",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 0,
+      "targetValue": 80,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valueHint": "Enter the percentage of CHAs trained in LMH supported counties who received a passing score on the post-training skills assessment for the revised paper-based NCHP curriculum. Where 0 means no CHAs passed and 100 means all trained CHAs passed.",
+      "valuePrompt": "Percent of CHAs trained who passed the assessment"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 45,
+        "narrative": "Training completed in Grand Bassa with 45% pass rate."
+      },
+      {
+        "month": "08_2025",
+        "value": 55,
+        "narrative": "Improved supervision leading to higher assessment outcomes."
+      },
+      {
+        "month": "09_2025",
+        "value": 60,
+        "narrative": "Additional coaching for low-performing trainees initiated."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "2.2",
+    "objectiveToc": "DELIVER",
+    "objective": "Improve County Health Team's capacity to deliver high quality community health services in counties of direct implementation.",
+    "keyResult": "90% of CHAs in LMH supported counties receive correct and on-time payments monthly as reported through IFI (Co-Impact)",
+    "priority": 5,
+    "tracking": {
+      "status": "achieved",
+      "progress": 80,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Payroll system automated",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-08-15"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 80,
+      "targetValue": 90,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "average",
+      "valueHint": "Enter the percentage of CHAs in LMH supported counties receiving correct and on-time payments monthly as reported through IFI. Where 0 means no CHAs received correct and on-time payments and 100 means all CHAs received correct and on-time payments.",
+      "valuePrompt": "Percent of CHAs receiving correct and on-time payments"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 85,
+        "narrative": "Minor delays in payment processing in two districts."
+      },
+      {
+        "month": "08_2025",
+        "value": 90,
+        "narrative": "Automated payroll system stabilized."
+      },
+      {
+        "month": "09_2025",
+        "value": 92,
+        "narrative": "Payments consistently processed on time."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "2.3",
+    "objectiveToc": "DELIVER",
+    "objective": "Improve County Health Team's capacity to deliver high quality community health services in counties of direct implementation.",
+    "keyResult": "95% of communities have a CHC and 85% of those report conducting a CHC meeting in the last month (Light)",
+    "priority": 4,
+    "tracking": {
+      "status": "on_track",
+      "progress": 84,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "CHC coverage at 75%",
+          "dueDate": "2025-09-30",
+          "status": "completed",
+          "completionDate": "2025-08-31"
+        },
+        {
+          "milestone": "CHC coverage at 95%",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 60,
+      "targetValue": 95,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 70,
+        "narrative": "CHC coverage expanding with strong participation."
+      },
+      {
+        "month": "08_2025",
+        "value": 75,
+        "narrative": "Monthly meetings conducted in 70% of active CHCs."
+      },
+      {
+        "month": "09_2025",
+        "value": 80,
+        "narrative": "Community mobilization teams improving attendance rates."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "2.4",
+    "objectiveToc": "DELIVER",
+    "objective": "Improve County Health Team's capacity to deliver high quality community health services in counties of direct implementation.",
+    "keyResult": "50% of CHAs in the LMH supported counties with all community health tracer drugs in stock (Co-Impact)",
+    "priority": 4,
+    "tracking": {
+      "status": "at_risk",
+      "progress": 84,
+      "confidenceLevel": "medium",
+      "milestones": [
+        {
+          "milestone": "Supply chain tool deployed",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-08-20"
+        },
+        {
+          "milestone": "Restocking completed",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 30,
+      "targetValue": 50,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valueHint": "Enter the percentage of CHAs in LMH supported counties with all community health tracer drugs in stock. Where 0 means no CHAs have all tracer drugs in stock and 100 means all CHAs have all tracer drugs in stock.",
+      "valuePrompt": "Percent of CHAs with all tracer drugs in stock (Co-Impact)"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 35,
+        "narrative": "Stock-out of malaria tracer drugs reported in 3 counties.",
+        "risks": [
+          "Supply chain disruptions"
+        ],
+        "mitigations": [
+          "Emergency procurement initiated"
+        ]
+      },
+      {
+        "month": "08_2025",
+        "value": 38,
+        "narrative": "Supply chain monitoring tool rolled out."
+      },
+      {
+        "month": "09_2025",
+        "value": 42,
+        "narrative": "Restocking initiated; improvement expected next quarter."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "2.5",
+    "objectiveToc": "DELIVER",
+    "objective": "Improve County Health Team's capacity to deliver high quality community health services in counties of direct implementation.",
+    "keyResult": "40% of all newly recruited Community Health Workers in Last Mile Health supported counties are females (Co-Impact)",
+    "priority": 3,
+    "tracking": {
+      "status": "on_track",
+      "progress": 93,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Gender recruitment guidelines deployed",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-15"
+        },
+        {
+          "milestone": "40% female recruitment achieved",
+          "dueDate": "2025-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 25,
+      "targetValue": 40,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valueHint": "Enter a value between 0 and 100 representing the percentage of newly recruited Community Health Workers who are female.",
+      "valuePrompt": "Percentage of newly recruited Community Health Workers who are females"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2025-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 30,
+        "narrative": "Gender-sensitive recruitment guidelines introduced."
+      },
+      {
+        "month": "08_2025",
+        "value": 35,
+        "narrative": "Local outreach campaigns encouraging female applicants."
+      },
+      {
+        "month": "09_2025",
+        "value": 37,
+        "narrative": "On track to meet target by Q2."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "2.6",
+    "objectiveToc": "DELIVER",
+    "objective": "Improve County Health Team's capacity to deliver high quality community health services in counties of direct implementation.",
+    "keyResult": "90% of CHAs receive 2+ supervision visits monthly in Last Mile Health supported counties (Co-Impact)",
+    "priority": 4,
+    "tracking": {
+      "status": "on_track",
+      "progress": 97,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Transport support deployed",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-08-10"
+        },
+        {
+          "milestone": "90% supervision rate achieved",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 75,
+      "targetValue": 90,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "average",
+      "valueHint": "Enter a value between 0 and 100 representing the percentage of CHAs receiving 2 or more supervision visits monthly. Where 0 means no CHAs received 2+ visits and 100 means all CHAs received 2+ visits.",
+      "valuePrompt": "Percentage of CHAs receiving 2+ supervision visits monthly"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 80,
+        "narrative": "Increased supervisory visits across LMH counties."
+      },
+      {
+        "month": "08_2025",
+        "value": 85,
+        "narrative": "Transport support improved consistency of visits."
+      },
+      {
+        "month": "09_2025",
+        "value": 87,
+        "narrative": "Target nearly achieved, coverage at 87%."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "3.1",
+    "objectiveToc": "DELIVER (Innovation)",
+    "objective": "Design and test new innovations that address key gaps in service delivery and can be scaled through integration of future policy iterations.",
+    "keyResult": "75% of healthcare facilities in all counties reporting monthly malaria immunization outreach data (GSK)",
+    "priority": 3,
+    "tracking": {
+      "status": "on_track",
+      "progress": 77,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Initial 5 counties rollout",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-07-31"
+        },
+        {
+          "milestone": "All counties reporting",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 30,
+      "targetValue": 75,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valueHint": "Enter the percentage of healthcare facilities in all counties reporting monthly malaria immunization outreach data. Where 0 means no facilities reporting and 100 means all facilities reporting.",
+      "valuePrompt": "Percentage of healthcare facilities reporting monthly malaria immunization outreach data"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 40,
+        "narrative": "Initial rollout to 5 counties with early adoption."
+      },
+      {
+        "month": "08_2025",
+        "value": 50,
+        "narrative": "Improved data reporting after refresher training."
+      },
+      {
+        "month": "09_2025",
+        "value": 58,
+        "narrative": "Increased facility compliance across remaining regions."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "3.2",
+    "objectiveToc": "DELIVER (Innovation)",
+    "objective": "Design and test new innovations that address key gaps in service delivery and can be scaled through integration of future policy iterations.",
+    "keyResult": "Roll out community WASH innovation to address water borne disease in Rivercess and has potential to scale (Light)",
+    "priority": 3,
+    "tracking": {
+      "status": "achieved",
+      "progress": 100,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Pilot framework finalized",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-31"
+        },
+        {
+          "milestone": "WASH innovation deployed",
+          "dueDate": "2025-09-30",
+          "status": "completed",
+          "completionDate": "2025-08-31"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "yes_no",
+      "baseline": 0,
+      "targetValue": 1,
+      "minValue": 0,
+      "maxValue": 1,
+      "calculationMethod": "latest",
+      "valueHint": "Click to select whether the community WASH innovation has been rolled out in Rivercess.",
+      "valuePrompt": "WASH innovation rolled out?"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2025-09-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 0,
+        "narrative": "Pilot framework finalized."
+      },
+      {
+        "month": "08_2025",
+        "value": 1,
+        "narrative": "WASH innovation successfully rolled out."
+      },
+      {
+        "month": "09_2025",
+        "value": 1,
+        "narrative": "Positive feedback from community, scalability under review."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "binary",
+      "chartType": "yes_no",
+      "metricUnit": "WASH Innovation Rolled Out"
+    }
+  },
+  {
+    "okrId": "3.3",
+    "objectiveToc": "DELIVER (Innovation)",
+    "objective": "Design and test new innovations that address key gaps in service delivery and can be scaled through integration of future policy iterations.",
+    "keyResult": "2,000 mothers in Rivercess received 1 maternal health education, awareness campaign, or social and behavior change communication activity by Q2 (MERK)",
+    "priority": 3,
+    "tracking": {
+      "status": "on_track",
+      "progress": 88,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "1,000 mothers reached",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-08-15"
+        },
+        {
+          "milestone": "2,000 mothers reached",
+          "dueDate": "2025-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "number",
+      "baseline": 0,
+      "targetValue": 2000,
+      "minValue": 0,
+      "maxValue": 3000,
+      "calculationMethod": "cumulative",
+      "valueHint": "Enter the number of mothers in Rivercess who have received at least one maternal health education, awareness campaign, or social and behavior change communication activity. Where 0 means no mothers reached and 2000 means the target number of mothers reached.",
+      "valuePrompt": "Number of mothers reached?"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2025-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 800,
+        "narrative": "Awareness campaigns launched in 10 districts."
+      },
+      {
+        "month": "08_2025",
+        "value": 1350,
+        "narrative": "Strong turnout during maternal health week."
+      },
+      {
+        "month": "09_2025",
+        "value": 1750,
+        "narrative": "Target nearly reached through extended radio campaigns."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "count",
+      "chartType": "pie",
+      "metricUnit": "mothers"
+    }
+  },
+  {
+    "okrId": "3.4",
+    "objectiveToc": "DELIVER (Innovation)",
+    "objective": "Design and test new innovations that address key gaps in service delivery and can be scaled through integration of future policy iterations.",
+    "keyResult": "All female CHSS trained in Rivercess receive motorbike safety training (Light).",
+    "priority": 2,
+    "tracking": {
+      "status": "achieved",
+      "progress": 100,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "First cohort trained",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-08-20"
+        },
+        {
+          "milestone": "All female CHSS certified",
+          "dueDate": "2025-09-30",
+          "status": "completed",
+          "completionDate": "2025-09-30"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 0,
+      "targetValue": 100,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valueHint": "Enter a value between 0 and 100 representing the percentage of female CHSS trained in Rivercess who have received motorbike safety training.",
+      "valuePrompt": "Percentage of female CHSS trained in motorbike safety training"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2025-09-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 60,
+        "narrative": "Training began with first cohort of CHSS women."
+      },
+      {
+        "month": "08_2025",
+        "value": 85,
+        "narrative": "Additional sessions completed in 3 districts."
+      },
+      {
+        "month": "09_2025",
+        "value": 100,
+        "narrative": "All female CHSS successfully certified."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "4.1",
+    "objectiveToc": "IMPACT MEASUREMENT",
+    "objective": "Improve national community-based information systems that ensure the collection, analysis, and use of reliable and timely community health information for evidence-based decision making, learning, feedback and digital transformation.",
+    "keyResult": "95% of CHSS Monthly Service Reports (MSRs) accurately completed and submitted on time by Q4 (Light, Co-Impact)",
+    "priority": 4,
+    "tracking": {
+      "status": "on_track",
+      "progress": 97,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "MSR template simplified",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-20"
+        },
+        {
+          "milestone": "95% compliance achieved",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 85,
+      "targetValue": 95,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "average",
+      "valueHint": "Enter the percentage of CHSS Monthly Service Reports (MSRs) that are accurately completed and submitted on time. Where 0 means no MSRs are compliant and 100 means all MSRs are compliant.",
+      "valuePrompt": "Percentage of CHSS Monthly Service Reports accurately completed and submitted on time"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 88,
+        "narrative": "MSR template simplified; compliance increased."
+      },
+      {
+        "month": "08_2025",
+        "value": 90,
+        "narrative": "On-time submissions improving with supervision support."
+      },
+      {
+        "month": "09_2025",
+        "value": 92,
+        "narrative": "System automation nearing completion."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "4.2",
+    "objectiveToc": "IMPACT MEASUREMENT",
+    "objective": "Improve national community-based information systems that ensure the collection, analysis, and use of reliable and timely community health information for evidence-based decision making, learning, feedback and digital transformation.",
+    "keyResult": "Seconded eCBIS Project Manager to the Ministry of Health to strengthen design and implementation of long-term roadmap by Q4",
+    "priority": 3,
+    "tracking": {
+      "status": "achieved",
+      "progress": 100,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Recruitment completed",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-08-15"
+        },
+        {
+          "milestone": "Project Manager onboarded",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-08-20"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "yes_no",
+      "baseline": 0,
+      "targetValue": 1,
+      "minValue": 0,
+      "maxValue": 1,
+      "calculationMethod": "latest",
+      "valueHint": "Click to select whether eCBIS Manager has been seconded to MOH.",
+      "valuePrompt": "Seconded eCBIS Project Manager to MOH?"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 0,
+        "narrative": "Recruitment process initiated."
+      },
+      {
+        "month": "08_2025",
+        "value": 1,
+        "narrative": "Project Manager onboarded and seconded to MOH."
+      },
+      {
+        "month": "09_2025",
+        "value": 1,
+        "narrative": "Roadmap design underway with MOH collaboration."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "binary",
+      "chartType": "yes_no",
+      "metricUnit": "eCBIS Project Manager Seconded to MOH"
+    }
+  },
+  {
+    "okrId": "4.3",
+    "objectiveToc": "IMPACT MEASUREMENT",
+    "objective": "Improve national community-based information systems that ensure the collection, analysis, and use of reliable and timely community health information for evidence-based decision making, learning, feedback and digital transformation.",
+    "keyResult": "95% of CHSS electronic Logistics Management Information Systems data (eLMIS) accurately completed and submitted on time by Q4 (Light, Co-Impact)",
+    "priority": 3,
+    "tracking": {
+      "status": "on_track",
+      "progress": 93,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "System transition completed",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-08-15"
+        },
+        {
+          "milestone": "95% compliance achieved",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 70,
+      "targetValue": 95,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "average",
+      "valueHint": "Enter the percentage of CHSS electronic Logistics Management Information Systems data (eLMIS) that are accurately completed and submitted on time. Where 0 means no eLMIS data are compliant and 100 means all eLMIS data are compliant.",
+      "valuePrompt": "Percentage of CHSS eLMIS data accurately completed and submitted on time"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 75,
+        "narrative": "System transition caused short delays in reporting."
+      },
+      {
+        "month": "08_2025",
+        "value": 82,
+        "narrative": "Improved data entry after refresher trainings."
+      },
+      {
+        "month": "09_2025",
+        "value": 88,
+        "narrative": "Approaching target with consistent submissions."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "4.4",
+    "objectiveToc": "IMPACT MEASUREMENT",
+    "objective": "Improve national community-based information systems that ensure the collection, analysis, and use of reliable and timely community health information for evidence-based decision making, learning, feedback and digital transformation.",
+    "keyResult": "CBIS, IFI and AAR data reviewed monthly and actions taken reflected in the Liberia Evidence, Recommendations, and Action Dashboard",
+    "priority": 2,
+    "tracking": {
+      "status": "on_track",
+      "progress": 75,
+      "confidenceLevel": "high",
+      "milestones": []
+    },
+    "measurement": {
+      "unit": "yes_no",
+      "baseline": 0,
+      "targetValue": 1,
+      "minValue": 0,
+      "maxValue": 1,
+      "calculationMethod": "latest",
+      "valueHint": "Click to select whether CBIS, IFI and AAR data have been reviewed monthly and actions taken reflected in the Liberia Evidence, Recommendations, and Action Dashboard.",
+      "valuePrompt": "CBIS, IFI and AAR data reviewed and actions taken?"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 0,
+        "narrative": "First quarterly review session completed."
+      },
+      {
+        "month": "08_2025",
+        "value": 0,
+        "narrative": "Action dashboard launched and populated."
+      },
+      {
+        "month": "09_2025",
+        "value": 1,
+        "narrative": "Monthly reviews now routine at national level."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "yes_no",
+      "chartType": "yes_no",
+      "metricUnit": "CBIS, IFI and AAR Data Reviewed"
+    }
+  },
+  {
+    "okrId": "4.5",
+    "objectiveToc": "IMPACT MEASUREMENT",
+    "objective": "Improve national community-based information systems that ensure the collection, analysis, and use of reliable and timely community health information for evidence-based decision making, learning, feedback and digital transformation.",
+    "keyResult": "95% projects complete a learning activity (data review, AAR, PRMs, etc.) by end of Q4",
+    "priority": 3,
+    "tracking": {
+      "status": "on_track",
+      "progress": 87,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Learning framework deployed",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-08-10"
+        },
+        {
+          "milestone": "95% project completion",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 65,
+      "targetValue": 95,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valueHint": "Enter the percentage of projects that have completed a learning activity (data review, AAR, PRMs, etc.). Where 0 means no projects have completed a learning activity and 100 means all projects have completed a learning activity.",
+      "valuePrompt": "Percentage of projects completing a learning activity"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 70,
+        "narrative": "Teams engaged in data review activities."
+      },
+      {
+        "month": "08_2025",
+        "value": 78,
+        "narrative": "PRMs and learning workshops held in multiple sites."
+      },
+      {
+        "month": "09_2025",
+        "value": 83,
+        "narrative": "More projects integrating AARs in their workflow."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "5.1",
+    "objectiveToc": "MANAGE (Culture & DEI)",
+    "objective": "Foster a DEI-centered organizational culture to create equitable opportunities that reflect organizational goals, promote effective communication, improve team trust and meet the needs of all team members.",
+    "keyResult": "A sustainable workforce strategy developed that reflects LMH's DEI culture.",
+    "priority": 4,
+    "tracking": {
+      "status": "achieved",
+      "progress": 100,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Framework designed",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-31"
+        },
+        {
+          "milestone": "Strategy finalized and approved",
+          "dueDate": "2025-09-30",
+          "status": "completed",
+          "completionDate": "2025-09-15"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "yes_no",
+      "baseline": 0,
+      "targetValue": 1,
+      "minValue": 0,
+      "maxValue": 1,
+      "calculationMethod": "latest",
+      "valueHint": "Click to select whether a sustainable workforce strategy reflecting LMH's DEI culture has been developed.",
+      "valuePrompt": "Sustainable workforce strategy developed?"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2025-09-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 0,
+        "narrative": "Framework design initiated."
+      },
+      {
+        "month": "08_2025",
+        "value": 1,
+        "narrative": "Strategy finalized with HR leadership input."
+      },
+      {
+        "month": "09_2025",
+        "value": 1,
+        "narrative": "Approved by executive leadership and shared org-wide."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "binary",
+      "chartType": "yes_no",
+      "metricUnit": "Sustainable Workforce Strategy Developed"
+    }
+  },
+  {
+    "okrId": "5.2",
+    "objectiveToc": "MANAGE (Culture & DEI)",
+    "objective": "Foster a DEI-centered organizational culture to create equitable opportunities that reflect organizational goals, promote effective communication, improve team trust and meet the needs of all team members.",
+    "keyResult": "15% reduction in employee relations issues related to workplace policies violations by end of Q4.",
+    "priority": 2,
+    "tracking": {
+      "status": "on_track",
+      "progress": 67,
+      "confidenceLevel": "medium",
+      "milestones": [
+        {
+          "milestone": "Policy refresher sessions completed",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-08-20"
+        },
+        {
+          "milestone": "15% reduction achieved",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 0,
+      "targetValue": 15,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valueHint": "Enter a value between 0 and 100 representing the percentage reduction in employee relations issues related to workplace policies violations. Where 0 means no reduction and 15 means the target reduction achieved.",
+      "valuePrompt": "Percentage reduction in employee relations issues"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 4,
+        "narrative": "Policy refresher sessions launched."
+      },
+      {
+        "month": "08_2025",
+        "value": 7,
+        "narrative": "Manager training improved grievance handling."
+      },
+      {
+        "month": "09_2025",
+        "value": 10,
+        "narrative": "Workplace conflicts reduced significantly."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "line",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "5.3",
+    "objectiveToc": "MANAGE (Culture & DEI)",
+    "objective": "Foster a DEI-centered organizational culture to create equitable opportunities that reflect organizational goals, promote effective communication, improve team trust and meet the needs of all team members.",
+    "keyResult": "80% of participants of the DEI training reporting an increased application of DEI principles in day-to-day work by the end of Q4.",
+    "priority": 3,
+    "tracking": {
+      "status": "on_track",
+      "progress": 98,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "First DEI training round completed",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-07-31"
+        },
+        {
+          "milestone": "80% application rate achieved",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 55,
+      "targetValue": 80,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valueHint": "Enter a value between 0 and 100 representing the percentage of participants reporting increased application of DEI principles. Where 0 means no participants and 100 means all participants.",
+      "valuePrompt": "Percentage of participants reporting increased application of DEI principles"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 60,
+        "narrative": "First round of DEI training completed."
+      },
+      {
+        "month": "08_2025",
+        "value": 70,
+        "narrative": "Staff workshops focused on inclusive leadership."
+      },
+      {
+        "month": "09_2025",
+        "value": 78,
+        "narrative": "Improved application of DEI principles in teams."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "line",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "5.4",
+    "objectiveToc": "MANAGE (Culture & DEI)",
+    "objective": "Foster a DEI-centered organizational culture to create equitable opportunities that reflect organizational goals, promote effective communication, improve team trust and meet the needs of all team members.",
+    "keyResult": "Staff engagement programs developed and initiated with visible impact on staff motivation and 90% overall retention by Q4.",
+    "priority": 4,
+    "tracking": {
+      "status": "on_track",
+      "progress": 94,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Engagement survey completed",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-31"
+        },
+        {
+          "milestone": "90% retention achieved",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "yes_no",
+      "baseline": 0,
+      "targetValue": 1,
+      "minValue": 0,
+      "maxValue": 1,
+      "calculationMethod": "latest",
+      "valueHint": "Click to select whether staff engagement programs have been developed and initiated with visible impact on staff motivation and 90% overall retention.",
+      "valuePrompt": "Staff engagement programs developed and initiated?"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 80,
+        "narrative": "Engagement survey conducted to inform programs."
+      },
+      {
+        "month": "08_2025",
+        "value": 83,
+        "narrative": "Staff appreciation initiatives launched."
+      },
+      {
+        "month": "09_2025",
+        "value": 85,
+        "narrative": "Retention stable, motivation levels improving."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "yes_no",
+      "chartType": "yes_no",
+      "metricUnit": "Staff Engagement Programs Developed"
+    }
+  },
+  {
+    "okrId": "6.1",
+    "objectiveToc": "MANAGE (Systems)",
+    "objective": "Maintain strong internal systems and policies to optimize compliance and use of data that enable efficient and effective management of programs, people and resources.",
+    "keyResult": "90% of all the procurements raised from Tradogram are closed inline with the terms and conditions of the agreement every month.",
+    "priority": 3,
+    "tracking": {
+      "status": "on_track",
+      "progress": 97,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Procurement tracker deployed",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-20"
+        },
+        {
+          "milestone": "90% closure rate achieved",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 80,
+      "targetValue": 90,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "average",
+      "valueHint": "Enter the percentage of procurements raised from Tradogram that are closed in line with the terms and conditions of the agreement. Where 0 means no procurements are closed properly and 100 means all procurements are closed properly.",
+      "valuePrompt": "Percentage of procurements closed in line with terms and conditions"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 82,
+        "narrative": "Procurement delays reduced with new tracker."
+      },
+      {
+        "month": "08_2025",
+        "value": 85,
+        "narrative": "Automated alerts improving closure rate."
+      },
+      {
+        "month": "09_2025",
+        "value": 87,
+        "narrative": "Compliance checks integrated into workflow."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "6.2",
+    "objectiveToc": "MANAGE (Systems)",
+    "objective": "Maintain strong internal systems and policies to optimize compliance and use of data that enable efficient and effective management of programs, people and resources.",
+    "keyResult": "Payroll processed via HRIS by the 15th of each month with no errors.",
+    "priority": 5,
+    "tracking": {
+      "status": "achieved",
+      "progress": 100,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "HRIS fully automated",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-15"
+        },
+        {
+          "milestone": "100% on-time payroll",
+          "dueDate": "2026-06-30",
+          "status": "completed",
+          "completionDate": "2025-09-30"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "yes_no",
+      "baseline": 0,
+      "targetValue": 1,
+      "minValue": 0,
+      "maxValue": 1,
+      "calculationMethod": "latest",
+      "valueHint": "Click to select whether payroll has been processed via HRIS by the 15th of each month with no errors.",
+      "valuePrompt": "Payroll Processed via HRIS by 15th with No Errors?"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 100,
+        "narrative": "Payroll completed on schedule."
+      },
+      {
+        "month": "08_2025",
+        "value": 100,
+        "narrative": "Zero payroll discrepancies reported."
+      },
+      {
+        "month": "09_2025",
+        "value": 100,
+        "narrative": "Process fully automated and stable."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "yes_no",
+      "chartType": "yes_no",
+      "metricUnit": "Payroll Processed by 15th with No Errors"
+    }
+  },
+  {
+    "okrId": "6.3",
+    "objectiveToc": "MANAGE (Systems)",
+    "objective": "Maintain strong internal systems and policies to optimize compliance and use of data that enable efficient and effective management of programs, people and resources.",
+    "keyResult": "90% of staff members trained on safety and security, procurement, IT, fleet and finance policies to increase awareness and compliance by FY26 Q4.",
+    "priority": 2,
+    "tracking": {
+      "status": "delayed",
+      "progress": 72,
+      "confidenceLevel": "medium",
+      "milestones": [
+        {
+          "milestone": "Training modules developed",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-31"
+        },
+        {
+          "milestone": "90% staff trained",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 35,
+      "targetValue": 90,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valueHint": "Enter a value between 0 and 100 representing the percentage of staff members trained on safety and security, procurement, IT, fleet and finance policies. Where 0 means no staff trained and 90 means the target achieved.",
+      "valuePrompt": "Percentage of staff members trained on key policies"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 40,
+        "narrative": "Training modules developed.",
+        "risks": [
+          "Limited training capacity"
+        ],
+        "mitigations": [
+          "Additional trainers recruited"
+        ]
+      },
+      {
+        "month": "08_2025",
+        "value": 55,
+        "narrative": "Training delivered in 3 out of 5 regions."
+      },
+      {
+        "month": "09_2025",
+        "value": 65,
+        "narrative": "Rescheduling sessions for missed teams."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "6.4",
+    "objectiveToc": "MANAGE (Systems)",
+    "objective": "Maintain strong internal systems and policies to optimize compliance and use of data that enable efficient and effective management of programs, people and resources.",
+    "keyResult": "Approved and updated supplier database reflected in Tradogram and all relevant vendors contacted during procurement to increase fairness, transparency, and competitiveness.",
+    "priority": 2,
+    "tracking": {
+      "status": "achieved",
+      "progress": 100,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Database audit completed",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-31"
+        },
+        {
+          "milestone": "Database updated in Tradogram",
+          "dueDate": "2025-09-30",
+          "status": "completed",
+          "completionDate": "2025-08-31"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "yes_no",
+      "baseline": 0,
+      "targetValue": 1,
+      "minValue": 0,
+      "maxValue": 1,
+      "calculationMethod": "latest",
+      "valueHint": "Click to select whether the approved and updated supplier database is reflected in Tradogram and all relevant vendors have been contacted during procurement.",
+      "valuePrompt": "Supplier Database Updated in Tradogram?"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2025-09-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 0,
+        "narrative": "Database audit completed."
+      },
+      {
+        "month": "08_2025",
+        "value": 1,
+        "narrative": "Supplier data verified and uploaded."
+      },
+      {
+        "month": "09_2025",
+        "value": 1,
+        "narrative": "Procurement team using updated vendor list."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "binary",
+      "chartType": "yes_no",
+      "metricUnit": "Supplier Database Updated in Tradogram"
+    }
+  },
+  {
+    "okrId": "6.5",
+    "objectiveToc": "MANAGE (Systems)",
+    "objective": "Maintain strong internal systems and policies to optimize compliance and use of data that enable efficient and effective management of programs, people and resources.",
+    "keyResult": "98% of financial transactions processed through mobile money and digital banking.",
+    "priority": 3,
+    "tracking": {
+      "status": "on_track",
+      "progress": 98,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Mobile banking platform deployed",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-08-10"
+        },
+        {
+          "milestone": "98% digital transactions achieved",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 85,
+      "targetValue": 98,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "average",
+      "valueHint": "Enter the percentage of financial transactions processed through mobile money and digital banking. Where 0 means no transactions are digital and 98 means the target achieved.",
+      "valuePrompt": "Percentage of financial transactions processed digitally"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 90,
+        "narrative": "Transition from cash payments initiated."
+      },
+      {
+        "month": "08_2025",
+        "value": 94,
+        "narrative": "Mobile banking adoption expanded to partners."
+      },
+      {
+        "month": "09_2025",
+        "value": 96,
+        "narrative": "Digital payments normalized across departments."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "7.1",
+    "objectiveToc": "MANAGE (Finance)",
+    "objective": "Ensure strong financial performance, compliance, and sustainability through effective budgeting, cost management, and financial reporting systems.",
+    "keyResult": "100% of donor reports submitted on time.",
+    "priority": 5,
+    "tracking": {
+      "status": "achieved",
+      "progress": 100,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Reporting system automated",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-15"
+        },
+        {
+          "milestone": "100% on-time submissions",
+          "dueDate": "2026-06-30",
+          "status": "completed",
+          "completionDate": "2025-09-30"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 95,
+      "targetValue": 100,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valueHint": "Enter the percentage of donor reports submitted on time. Where 0 means no reports are submitted on time and 100 means all reports are submitted on time.",
+      "valuePrompt": "Percentage of donor reports submitted on time"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 90,
+        "narrative": "Reports submitted within deadlines."
+      },
+      {
+        "month": "08_2025",
+        "value": 80,
+        "narrative": "No delays across all donor submissions."
+      },
+      {
+        "month": "09_2025",
+        "value": 100,
+        "narrative": "Continued 100% compliance maintained."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "7.2",
+    "objectiveToc": "MANAGE (Finance)",
+    "objective": "Ensure strong financial performance, compliance, and sustainability through effective budgeting, cost management, and financial reporting systems.",
+    "keyResult": "Variance between actuals and budget does not exceed 5% per quarter.",
+    "priority": 4,
+    "tracking": {
+      "status": "on_track",
+      "progress": 80,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Budget monitoring system deployed",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-31"
+        },
+        {
+          "milestone": "Variance below 5% maintained",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "yes_no",
+      "baseline": 0,
+      "targetValue": 1,
+      "minValue": 0,
+      "maxValue": 1,
+      "calculationMethod": "latest",
+      "valueHint": "Click to select whether the variance between actuals and budget does not exceed 5% for the quarter.",
+      "valuePrompt": "Variance between actuals and budget within 5%?"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 6,
+        "narrative": "Minor overspending on training costs."
+      },
+      {
+        "month": "08_2025",
+        "value": 5,
+        "narrative": "Budget alignment achieved mid-quarter."
+      },
+      {
+        "month": "09_2025",
+        "value": 4,
+        "narrative": "Variance stabilized below threshold."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "yes_no",
+      "chartType": "yes_no",
+      "metricUnit": "Variance Within 5%"
+    }
+  },
+  {
+    "okrId": "7.3",
+    "objectiveToc": "MANAGE (Finance)",
+    "objective": "Ensure strong financial performance, compliance, and sustainability through effective budgeting, cost management, and financial reporting systems.",
+    "keyResult": "75% of program managers trained in financial management by Q3.",
+    "priority": 3,
+    "tracking": {
+      "status": "on_track",
+      "progress": 87,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Training curriculum developed",
+          "dueDate": "2025-07-31",
+          "status": "completed",
+          "completionDate": "2025-07-31"
+        },
+        {
+          "milestone": "75% managers trained",
+          "dueDate": "2025-09-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "percent",
+      "baseline": 30,
+      "targetValue": 75,
+      "minValue": 0,
+      "maxValue": 100,
+      "calculationMethod": "latest",
+      "valueHint": "Enter a value between 0 and 100 representing the percentage of program managers trained in financial management. Where 0 means no managers trained and 75 means the target achieved.",
+      "valuePrompt": "Percentage of program managers trained in financial management"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2025-09-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 40,
+        "narrative": "Training curriculum developed."
+      },
+      {
+        "month": "08_2025",
+        "value": 55,
+        "narrative": "Sessions held for regional managers."
+      },
+      {
+        "month": "09_2025",
+        "value": 65,
+        "narrative": "Final batch planned for next quarter."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "percentage",
+      "chartType": "bar",
+      "metricUnit": "percent"
+    }
+  },
+  {
+    "okrId": "7.4",
+    "objectiveToc": "MANAGE (Finance)",
+    "objective": "Ensure strong financial performance, compliance, and sustainability through effective budgeting, cost management, and financial reporting systems.",
+    "keyResult": "All audit recommendations implemented within 3 months of report submission.",
+    "priority": 4,
+    "tracking": {
+      "status": "on_track",
+      "progress": 90,
+      "confidenceLevel": "high",
+      "milestones": [
+        {
+          "milestone": "Initial corrective actions completed",
+          "dueDate": "2025-08-31",
+          "status": "completed",
+          "completionDate": "2025-07-31"
+        },
+        {
+          "milestone": "All recommendations implemented",
+          "dueDate": "2026-06-30",
+          "status": "in_progress"
+        }
+      ]
+    },
+    "measurement": {
+      "unit": "yes_no",
+      "baseline": 0,
+      "targetValue": 1,
+      "minValue": 0,
+      "maxValue": 1,
+      "calculationMethod": "latest",
+      "valueHint": "Click to select whether all audit recommendations are implemented within 3 months of report submission.",
+      "valuePrompt": "All audit recommendations implemented within 3 months of report submission?"
+    },
+    "period": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "monthlyUpdates": [
+      {
+        "month": "07_2025",
+        "value": 60,
+        "narrative": "Initial corrective actions completed."
+      },
+      {
+        "month": "08_2025",
+        "value": 80,
+        "narrative": "Major policy updates implemented."
+      },
+      {
+        "month": "09_2025",
+        "value": 90,
+        "narrative": "Final items pending management approval."
+      }
+    ],
+    "chartMetadata": {
+      "metricType": "yes_no",
+      "chartType": "yes_no",
+      "metricUnit": "Audit Recommendations Implemented"
+    }
+  }
+]

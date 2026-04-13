@@ -1,0 +1,42 @@
+[
+  {
+    "title": "What is the Last Mile Data (LMD) Portal 2.0?",
+    "value": "<p>LMD 2.0 is a next-generation, cloud-based data management and reporting platform developed by Last Mile Health (LMH). It is designed to improve data collection, storage, and analytics to support decision-making across multiple countries and programs.</p>"
+  },
+  {
+    "title": "Why was LMD 2.0 developed?",
+    "value": "<p>LMD 2.0 was developed to address the limitations of LMD 1.0, which was built on older technologies that required extensive programming and lacked scalability. With LMH expanding globally, there was a need for a more flexible, scalable, and cost-effective platform to manage diverse data sources and support real-time analytics.</p>"
+  },
+  {
+    "title": "What are the key differences between LMD 1.0 and LMD 2.0?",
+    "value": "<ul><li><strong>LMD 1.0</strong> was built for low-bandwidth environments but required significant development efforts. It also lacked scalability as it was hosted on a private VPS.</li><li><strong>LMD 2.0</strong> is cloud-based, more scalable, and designed to handle data from multiple countries while providing advanced analytics and reporting capabilities.</li></ul>"
+  },
+  {
+    "title": "How does LMD 2.0 improve data management for LMH?",
+    "value": "<p>LMD 2.0 enhances data management by:</p><ul><li>Enabling real-time data collection and reporting.</li><li>Providing a scalable infrastructure that can support LMH's expanding global operations.</li><li>Offering a richer user experience for data analysts and program managers.</li><li>Improving integration with various data sources for better tracking of key performance indicators (KPIs).</li></ul>"
+  },
+  {
+    "title": "What challenges did LMH face with data management before LMD 2.0?",
+    "value": "<p>LMH faced challenges such as:</p><ul><li>Managing data from multiple sources and formats.</li><li>Difficulty in scaling LMD 1.0 to support new country programs.</li><li>High costs associated with maintaining and expanding the old system.</li><li>Limited ability to generate actionable insights from collected data.</li></ul>"
+  },
+  {
+    "title": "How does LMD 2.0 help in making data-driven decisions?",
+    "value": "<p>LMD 2.0 provides advanced analytics and reporting capabilities that allow LMH to track program performance more accurately. The platform aggregates data from different sources and presents insights in a structured format, enabling program managers and policymakers to make informed decisions.</p>"
+  },
+  {
+    "title": "What are the benefits of moving to a cloud-based system?",
+    "value": "<p>Moving to the cloud allows LMH to:</p><ul><li>Scale efficiently as data needs grow.</li><li>Reduce maintenance and infrastructure costs.</li><li>Improve system reliability and security.</li><li>Enable better collaboration across multiple countries and teams.</li></ul>"
+  },
+  {
+    "title": "What countries will benefit from LMD 2.0?",
+    "value": "<p>LMD 2.0 supports LMH's global programs, including operations in <strong>Liberia, Ethiopia, Malawi, Sierra Leone, Uganda</strong>, and other countries where LMH is actively working to strengthen community health systems.</p>"
+  },
+  {
+    "title": "What are the long-term goals of LMD 2.0?",
+    "value": "<p>The long-term goals of LMD 2.0 include:</p><ul><li>Providing a sustainable and scalable platform for LMH's growing data needs.</li><li>Enhancing real-time monitoring, evaluation, and learning across programs.</li><li>Improving data quality and accessibility to support informed decision-making.</li><li>Supporting LMH's mission to bring high-quality primary healthcare to remote communities.</li></ul>"
+  },
+  {
+    "title": "Who can access and use LMD 2.0?",
+    "value": "<p>LMD 2.0 is primarily designed for <strong>LMH staff, data analysts, program managers, and policymakers</strong> involved in monitoring and evaluating community health programs. The platform may also integrate with partner organizations to facilitate data sharing and reporting.</p>"
+  }
+]

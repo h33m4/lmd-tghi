@@ -1,0 +1,46 @@
+{
+  "liberia": {
+    "population": 5493030,
+    "rural_population": "46.40%",
+    "life_expectancy_at_birth": 62,
+    "gdp_per_capita": 907.64,
+    "<5_child_mortality": 73,
+    "infant_mortality": 53,
+    "maternal_mortality": 628,
+    "hiv_prevalence": "1%",
+    "medical_doctors_coverage": 1.78
+  },
+  "ethiopia": {
+    "population": 128691690,
+    "rural_population": "76.80%",
+    "life_expectancy_at_birth": 67,
+    "gdp_per_capita": 1070,
+    "<5_child_mortality": 47,
+    "infant_mortality": 38,
+    "maternal_mortality": 195,
+    "hiv_prevalence": "0.80%",
+    "medical_doctors_coverage": 1.43
+  },
+  "malawi": {
+    "population": 21104480,
+    "rural_population": "81.70",
+    "life_expectancy_at_birth": 67,
+    "gdp_per_capita": 580.25,
+    "<5_child_mortality": 38,
+    "infant_mortality": 29,
+    "maternal_mortality": 225,
+    "hiv_prevalence": "7.10%",
+    "medical_doctors_coverage": 0.54
+  },
+  "sierra leone": {
+    "population": 8460510,
+    "rural_population": "55.70",
+    "life_expectancy_at_birth": 62,
+    "gdp_per_capita": 9915.81,
+    "<5_child_mortality": 94,
+    "infant_mortality": 56,
+    "maternal_mortality": 354,
+    "hiv_prevalence": "1.40%",
+    "medical_doctors_coverage": 1.34
+  }
+}

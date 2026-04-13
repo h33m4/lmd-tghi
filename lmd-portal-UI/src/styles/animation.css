@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animate-charcter {
+  background-image: linear-gradient(
+    -225deg,
+    #edc01e 0%,
+    #4bb7d6 29%,
+    #ffffff 60%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  from {
+    background-position: 200% center;
+  }
+  to {
+    background-position: 0% center;
+  }
+}
+
+.item-link {
+  transition: all 0.3s ease-in-out;
+  -webkit-text-decoration-color: #4bb7d6;
+  text-decoration-color: #4bb7d6;
+}
+
+.item-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  -webkit-text-decoration-color: #8e3168;
+  text-decoration-color: #8e3168;
+  transition: all 0.3s ease-in-out;
+}
+
+.underline-hover {
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.underline-hover::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #4bb7d6;
+  transition: width 0.3s ease-in-out;
+}
+
+.underline-hover:hover::before {
+  width: 100%;
+}
+
+.hover-up {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+
+.hover-up:hover {
+  --tw-translate-y: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@layer utilities {
+  /* Act as a border */
+  .animated-div-wrapper {
+    @apply relative overflow-hidden rounded-2xl border-none;
+  }
+
+  /* Gradient */
+  .animated-div-wrapper::before {
+    background: conic-gradient(
+      rgb(2, 6, 250) 0deg,
+      rgb(245, 2, 2) 0deg,
+      transparent 90deg
+    );
+
+    @apply absolute left-[-50%] top-[-25%] right-[-50%] h-[150%] w-[200%] animate-border-spin content-[''];
+  }
+
+  /* Body */
+  .animated-div-content {
+    @apply absolute left-[1px] top-[1px] h-[calc(100%-2px)] w-[calc(100%-2px)] rounded-2xl  border;
+  }
+}

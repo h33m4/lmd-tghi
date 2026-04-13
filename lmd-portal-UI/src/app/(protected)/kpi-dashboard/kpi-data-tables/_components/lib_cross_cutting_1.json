@@ -1,0 +1,378 @@
+[
+  {
+    "period_start_date": "4/1/2024",
+    "fy_q": "FY24 Q4",
+    "chw_cadre": "CHA",
+    "gender": "Female",
+    "county_type": "Non LMH-managed",
+    "number_supported": 847
+  },
+  {
+    "period_start_date": "4/1/2024",
+    "fy_q": "FY24 Q4",
+    "chw_cadre": "CHA",
+    "gender": "Female",
+    "county_type": "LMH-managed",
+    "number_supported": 221
+  },
+  {
+    "period_start_date": "4/1/2024",
+    "fy_q": "FY24 Q4",
+    "chw_cadre": "CHA",
+    "gender": "Male",
+    "county_type": "Non LMH-managed",
+    "number_supported": 2910
+  },
+  {
+    "period_start_date": "4/1/2024",
+    "fy_q": "FY24 Q4",
+    "chw_cadre": "CHA",
+    "gender": "Male",
+    "county_type": "LMH-managed",
+    "number_supported": 700
+  },
+  {
+    "period_start_date": "4/1/2024",
+    "fy_q": "FY24 Q4",
+    "chw_cadre": "CHSS",
+    "gender": "Female",
+    "county_type": "Non LMH-managed",
+    "number_supported": 222
+  },
+  {
+    "period_start_date": "4/1/2024",
+    "fy_q": "FY24 Q4",
+    "chw_cadre": "CHSS",
+    "gender": "Female",
+    "county_type": "LMH-managed",
+    "number_supported": 66
+  },
+  {
+    "period_start_date": "4/1/2024",
+    "fy_q": "FY24 Q4",
+    "chw_cadre": "CHSS",
+    "gender": "Male",
+    "county_type": "Non LMH-managed",
+    "number_supported": 202
+  },
+  {
+    "period_start_date": "4/1/2024",
+    "fy_q": "FY24 Q4",
+    "chw_cadre": "CHSS",
+    "gender": "Male",
+    "county_type": "LMH-managed",
+    "number_supported": 52
+  },
+  {
+    "period_start_date": "1/1/2024",
+    "fy_q": "FY24 Q3",
+    "chw_cadre": "CHA",
+    "gender": "Female",
+    "county_type": "Non LMH-managed",
+    "number_supported": 847
+  },
+  {
+    "period_start_date": "1/1/2024",
+    "fy_q": "FY24 Q3",
+    "chw_cadre": "CHA",
+    "gender": "Female",
+    "county_type": "LMH-managed",
+    "number_supported": 222
+  },
+  {
+    "period_start_date": "1/1/2024",
+    "fy_q": "FY24 Q3",
+    "chw_cadre": "CHA",
+    "gender": "Male",
+    "county_type": "Non LMH-managed",
+    "number_supported": 2909
+  },
+  {
+    "period_start_date": "1/1/2024",
+    "fy_q": "FY24 Q3",
+    "chw_cadre": "CHA",
+    "gender": "Male",
+    "county_type": "LMH-managed",
+    "number_supported": 699
+  },
+  {
+    "period_start_date": "1/1/2024",
+    "fy_q": "FY24 Q3",
+    "chw_cadre": "CHSS",
+    "gender": "Female",
+    "county_type": "Non LMH-managed",
+    "number_supported": 224
+  },
+  {
+    "period_start_date": "1/1/2024",
+    "fy_q": "FY24 Q3",
+    "chw_cadre": "CHSS",
+    "gender": "Female",
+    "county_type": "LMH-managed",
+    "number_supported": 66
+  },
+  {
+    "period_start_date": "1/1/2024",
+    "fy_q": "FY24 Q3",
+    "chw_cadre": "CHSS",
+    "gender": "Male",
+    "county_type": "Non LMH-managed",
+    "number_supported": 204
+  },
+  {
+    "period_start_date": "1/1/2024",
+    "fy_q": "FY24 Q3",
+    "chw_cadre": "CHSS",
+    "gender": "Male",
+    "county_type": "LMH-managed",
+    "number_supported": 53
+  },
+  {
+    "period_start_date": "10/1/2023",
+    "fy_q": "FY24 Q2",
+    "chw_cadre": "CHA",
+    "gender": "Female",
+    "county_type": "Non LMH-managed",
+    "number_supported": 847
+  },
+  {
+    "period_start_date": "10/1/2023",
+    "fy_q": "FY24 Q2",
+    "chw_cadre": "CHA",
+    "gender": "Female",
+    "county_type": "LMH-managed",
+    "number_supported": 223
+  },
+  {
+    "period_start_date": "10/1/2023",
+    "fy_q": "FY24 Q2",
+    "chw_cadre": "CHA",
+    "gender": "Male",
+    "county_type": "Non LMH-managed",
+    "number_supported": 2909
+  },
+  {
+    "period_start_date": "10/1/2023",
+    "fy_q": "FY24 Q2",
+    "chw_cadre": "CHA",
+    "gender": "Male",
+    "county_type": "LMH-managed",
+    "number_supported": 704
+  },
+  {
+    "period_start_date": "10/1/2023",
+    "fy_q": "FY24 Q2",
+    "chw_cadre": "CHSS",
+    "gender": "Female",
+    "county_type": "Non LMH-managed",
+    "number_supported": 224
+  },
+  {
+    "period_start_date": "10/1/2023",
+    "fy_q": "FY24 Q2",
+    "chw_cadre": "CHSS",
+    "gender": "Female",
+    "county_type": "LMH-managed",
+    "number_supported": 66
+  },
+  {
+    "period_start_date": "10/1/2023",
+    "fy_q": "FY24 Q2",
+    "chw_cadre": "CHSS",
+    "gender": "Male",
+    "county_type": "Non LMH-managed",
+    "number_supported": 204
+  },
+  {
+    "period_start_date": "10/1/2023",
+    "fy_q": "FY24 Q2",
+    "chw_cadre": "CHSS",
+    "gender": "Male",
+    "county_type": "LMH-managed",
+    "number_supported": 53
+  },
+  {
+    "period_start_date": "7/1/2023",
+    "fy_q": "FY24 Q1",
+    "chw_cadre": "CHA",
+    "gender": "Female",
+    "county_type": "Non LMH-managed",
+    "number_supported": 664
+  },
+  {
+    "period_start_date": "7/1/2023",
+    "fy_q": "FY24 Q1",
+    "chw_cadre": "CHA",
+    "gender": "Female",
+    "county_type": "LMH-managed",
+    "number_supported": 223
+  },
+  {
+    "period_start_date": "7/1/2023",
+    "fy_q": "FY24 Q1",
+    "chw_cadre": "CHA",
+    "gender": "Male",
+    "county_type": "Non LMH-managed",
+    "number_supported": 2804
+  },
+  {
+    "period_start_date": "7/1/2023",
+    "fy_q": "FY24 Q1",
+    "chw_cadre": "CHA",
+    "gender": "Male",
+    "county_type": "LMH-managed",
+    "number_supported": 703
+  },
+  {
+    "period_start_date": "7/1/2023",
+    "fy_q": "FY24 Q1",
+    "chw_cadre": "CHSS",
+    "gender": "Female",
+    "county_type": "Non LMH-managed",
+    "number_supported": 219
+  },
+  {
+    "period_start_date": "7/1/2023",
+    "fy_q": "FY24 Q1",
+    "chw_cadre": "CHSS",
+    "gender": "Female",
+    "county_type": "LMH-managed",
+    "number_supported": 64
+  },
+  {
+    "period_start_date": "7/1/2023",
+    "fy_q": "FY24 Q1",
+    "chw_cadre": "CHSS",
+    "gender": "Male",
+    "county_type": "Non LMH-managed",
+    "number_supported": 191
+  },
+  {
+    "period_start_date": "7/1/2023",
+    "fy_q": "FY24 Q1",
+    "chw_cadre": "CHSS",
+    "gender": "Male",
+    "county_type": "LMH-managed",
+    "number_supported": 52
+  },
+  {
+    "period_start_date": "4/1/2023",
+    "fy_q": "FY23 Q4",
+    "chw_cadre": "CHA",
+    "gender": "Female",
+    "county_type": "Non LMH-managed",
+    "number_supported": 664
+  },
+  {
+    "period_start_date": "4/1/2023",
+    "fy_q": "FY23 Q4",
+    "chw_cadre": "CHA",
+    "gender": "Male",
+    "county_type": "Non LMH-managed",
+    "number_supported": 2802
+  },
+  {
+    "period_start_date": "4/1/2023",
+    "fy_q": "FY23 Q4",
+    "chw_cadre": "CHA",
+    "gender": "Unknown",
+    "county_type": "Non LMH-managed",
+    "number_supported": 2
+  },
+  {
+    "period_start_date": "4/1/2023",
+    "fy_q": "FY23 Q4",
+    "chw_cadre": "CHA",
+    "gender": "Unknown",
+    "county_type": "LMH-managed",
+    "number_supported": 931
+  },
+  {
+    "period_start_date": "4/1/2023",
+    "fy_q": "FY23 Q4",
+    "chw_cadre": "CHSS",
+    "gender": "Female",
+    "county_type": "Non LMH-managed",
+    "number_supported": 219
+  },
+  {
+    "period_start_date": "4/1/2023",
+    "fy_q": "FY23 Q4",
+    "chw_cadre": "CHSS",
+    "gender": "Male",
+    "county_type": "Non LMH-managed",
+    "number_supported": 191
+  },
+  {
+    "period_start_date": "4/1/2023",
+    "fy_q": "FY23 Q4",
+    "chw_cadre": "CHSS",
+    "gender": "Unknown",
+    "county_type": "LMH-managed",
+    "number_supported": 90
+  },
+  {
+    "period_start_date": "1/1/2023",
+    "fy_q": "FY23 Q3",
+    "chw_cadre": "CHA",
+    "gender": "NA",
+    "county_type": "LMH-managed",
+    "number_supported": 936
+  },
+  {
+    "period_start_date": "1/1/2023",
+    "fy_q": "FY23 Q3",
+    "chw_cadre": "CHSS",
+    "gender": "NA",
+    "county_type": "LMH-managed",
+    "number_supported": 90
+  },
+  {
+    "period_start_date": "1/1/2023",
+    "fy_q": "FY23 Q3",
+    "chw_cadre": "CHA",
+    "gender": "NA",
+    "county_type": "Non LMH-managed",
+    "number_supported": 2981
+  },
+  {
+    "period_start_date": "1/1/2023",
+    "fy_q": "FY23 Q3",
+    "chw_cadre": "CHSS",
+    "gender": "NA",
+    "county_type": "Non LMH-managed",
+    "number_supported": 345
+  },
+  {
+    "period_start_date": "10/1/2022",
+    "fy_q": "FY23 Q2",
+    "chw_cadre": "CHA",
+    "gender": "NA",
+    "county_type": "LMH-managed",
+    "number_supported": 963
+  },
+  {
+    "period_start_date": "10/1/2022",
+    "fy_q": "FY23 Q2",
+    "chw_cadre": "CHSS",
+    "gender": "NA",
+    "county_type": "LMH-managed",
+    "number_supported": 89
+  },
+  {
+    "period_start_date": "10/1/2022",
+    "fy_q": "FY23 Q2",
+    "chw_cadre": "CHA",
+    "gender": "NA",
+    "county_type": "Non LMH-managed",
+    "number_supported": 2981
+  },
+  {
+    "period_start_date": "10/1/2022",
+    "fy_q": "FY23 Q2",
+    "chw_cadre": "CHSS",
+    "gender": "NA",
+    "county_type": "Non LMH-managed",
+    "number_supported": 345
+  }
+]

@@ -1,0 +1,660 @@
+[
+  {
+    "label": "JamesTown Label",
+    "name": "JamesTown Name",
+    "href": "/JamesTown-href",
+    "description": "Portal homepage description",
+    "keywords": ["JamesTown-key", "portal-key", "Ameem-key"],
+    "metadata": {},
+    "parentRoute": "/jamemem-",
+    "isSearchable": true
+  },
+  {
+    "label": "Home",
+    "name": "Home",
+    "href": "/",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Auth",
+    "name": "Sign in",
+    "href": "/auth/sign-in",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Auth",
+    "name": "Reset password",
+    "href": "/auth/reset-password",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Auth",
+    "name": "Request access",
+    "href": "/auth/request-access",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Auth",
+    "name": "Forgot password",
+    "href": "/auth/forgot-password",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Auth",
+    "name": "Forced resetpassword",
+    "href": "/auth/forced-resetpassword",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Auth",
+    "name": "Error",
+    "href": "/auth/error",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Privacy-policy",
+    "name": "Privacy policy",
+    "href": "/privacy-policy",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Support",
+    "name": "Support",
+    "href": "/support",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Settings",
+    "name": "Settings",
+    "href": "/settings",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Resources",
+    "name": "Resources",
+    "href": "/resources",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "Kpi dashboard",
+    "href": "/kpi-dashboard",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Lmh-statistics-ref-guide",
+    "name": "Lmh statistics ref guide",
+    "href": "/lmh-statistics-ref-guide",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Country programs",
+    "href": "/country-programs",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Aff-dashboard",
+    "name": "Aff dashboard",
+    "href": "/aff-dashboard",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Docs",
+    "name": "Docs",
+    "href": "/docs",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Settings",
+    "name": "Password",
+    "href": "/settings/password",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Settings",
+    "name": "Notifications",
+    "href": "/settings/notifications",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Settings",
+    "name": "Appearance",
+    "href": "/settings/appearance",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "Theory of change",
+    "href": "/kpi-dashboard/theory-of-change",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "Malawi",
+    "href": "/kpi-dashboard/malawi",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "Sierra_leone",
+    "href": "/kpi-dashboard/sierra_leone",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "Liberia",
+    "href": "/kpi-dashboard/liberia",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "Kpi progress summary",
+    "href": "/kpi-dashboard/kpi-progress-summary",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "Kpi change log",
+    "href": "/kpi-dashboard/kpi-change-log",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "Faq",
+    "href": "/kpi-dashboard/faq",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "Ethiopia",
+    "href": "/kpi-dashboard/ethiopia",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "Data dictionary",
+    "href": "/kpi-dashboard/data-dictionary",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "Aff",
+    "href": "/kpi-dashboard/aff",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "Global scale",
+    "href": "/kpi-dashboard/global-scale",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Sierra_leone",
+    "href": "/country-programs/sierra_leone",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Liberia",
+    "href": "/country-programs/liberia",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Malawi",
+    "href": "/country-programs/malawi",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Ethiopia",
+    "href": "/country-programs/ethiopia",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+
+  {
+    "label": "Docs",
+    "name": "User guides",
+    "href": "/docs/user-guides",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Docs",
+    "name": "How it works",
+    "href": "/docs/how-it-works",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Docs",
+    "name": "Faqs",
+    "href": "/docs/faqs",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Docs",
+    "name": "About lmd2",
+    "href": "/docs/about-lmd2",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+
+  {
+    "label": "Portal-management",
+    "name": "Portal management",
+    "href": "/settings/portal-management",
+    "keywords": ["settings"],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Portal-analytics",
+    "name": "Portal analytics",
+    "href": "/settings/portal-analytics",
+    "keywords": ["settings"],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "[[...tablename]]",
+    "href": "/kpi-dashboard/kpi-data-tables/[[...tablename]]",
+    "keywords": [],
+    "isSearchable": false,
+    "metadata": {}
+  },
+  {
+    "label": "Kpi-dashboard",
+    "name": "KPI Data Table",
+    "href": "/kpi-dashboard/kpi-data-tables/",
+    "keywords": [
+      "cross-cutting",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "strengthen",
+      "deliver",
+      "upskil",
+      "mlw",
+      "sl",
+      "lib",
+      "eth"
+    ],
+    "isSearchable": false,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Program data",
+    "href": "/country-programs/sierra_leone/program-data",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Maps",
+    "href": "/country-programs/sierra_leone/maps",
+    "keywords": ["maps", "sierra leone"],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Program data",
+    "href": "/country-programs/liberia/program-data",
+    "keywords": ["program", "data", "liberia"],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Maps",
+    "href": "/country-programs/liberia/maps",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Program data",
+    "href": "/country-programs/malawi/program-data",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Maps",
+    "href": "/country-programs/malawi/maps",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Program data",
+    "href": "/country-programs/ethiopia/program-data",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Maps",
+    "href": "/country-programs/ethiopia/maps",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "User-management",
+    "name": "Users",
+    "href": "/user-management/users",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "User-management",
+    "name": "Groups",
+    "href": "/user-management/groups",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Data reviews",
+    "href": "/country-programs/sierra_leone/reports/data-reviews",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "[...programCode]",
+    "href": "/country-programs/sierra_leone/program-data/[...programCode]",
+    "keywords": [],
+    "isSearchable": false,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "One pager",
+    "href": "/country-programs/sierra_leone/overview/one-pager",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Sampledashboard",
+    "href": "/country-programs/sierra_leone/dashboards/sampledashboard",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "National pre service training for chws",
+    "href": "/country-programs/sierra_leone/dashboards/national-pre-service-training-for-chws",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Egh training",
+    "href": "/country-programs/sierra_leone/dashboards/egh-training",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Ecbis",
+    "href": "/country-programs/liberia/reports/ecbis",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Data reviews",
+    "href": "/country-programs/liberia/reports/data-reviews",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "[...programCode]",
+    "href": "/country-programs/liberia/program-data/[...programCode]",
+    "keywords": [],
+    "isSearchable": false,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "One pager",
+    "href": "/country-programs/liberia/overview/one-pager",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Sick child",
+    "href": "/country-programs/liberia/dashboards/sick-child",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Nchap scale",
+    "href": "/country-programs/liberia/dashboards/nchap-scale",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Cha module 1 summary",
+    "href": "/country-programs/liberia/dashboards/cha-module-1-summary",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Data reviews",
+    "href": "/country-programs/malawi/reports/data-reviews",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "[...programCode]",
+    "href": "/country-programs/malawi/program-data/[...programCode]",
+    "keywords": [],
+    "isSearchable": false,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "One pager",
+    "href": "/country-programs/malawi/overview/one-pager",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Sampledashboard",
+    "href": "/country-programs/malawi/dashboards/sampledashboard",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Ichis training",
+    "href": "/country-programs/malawi/dashboards/ichis-training",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Cbmnc training",
+    "href": "/country-programs/malawi/dashboards/cbmnc-training",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Data reviews",
+    "href": "/country-programs/ethiopia/reports/data-reviews",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "One pager",
+    "href": "/country-programs/ethiopia/overview/one-pager",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "[...programCode]",
+    "href": "/country-programs/ethiopia/program-data/[...programCode]",
+    "keywords": [],
+    "isSearchable": false,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "Blended irt training",
+    "href": "/country-programs/ethiopia/dashboards/blended-irt-training",
+    "keywords": [],
+    "isSearchable": true,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "[...slug]",
+    "href": "/country-programs/sierra_leone/reports/data-reviews/[...slug]",
+    "keywords": [],
+    "isSearchable": false,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "[...slug]",
+    "href": "/country-programs/liberia/reports/data-reviews/[...slug]",
+    "keywords": [],
+    "isSearchable": false,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "[...slug]",
+    "href": "/country-programs/malawi/reports/data-reviews/[...slug]",
+    "keywords": [],
+    "isSearchable": false,
+    "metadata": {}
+  },
+  {
+    "label": "Country-programs",
+    "name": "[...slug]",
+    "href": "/country-programs/ethiopia/reports/data-reviews/[...slug]",
+    "keywords": [],
+    "isSearchable": false,
+    "metadata": {}
+  }
+]

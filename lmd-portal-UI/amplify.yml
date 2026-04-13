@@ -1,0 +1,28 @@
+version: "1.0"
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm i --legacy-peer-deps
+        - npx prisma generate
+    build:
+      commands:
+        - env | grep -e AUTH_ >> .env.production
+        - env | grep -e COGNITO_ >> .env.production
+        - env | grep -e LMD_ >> .env.production
+        - env | grep -e SLACK_ >> .env.production
+        - env | grep -e NEXT_PUBLIC_ >> .env.production
+        - env | grep -e GA_ >> .env.production
+        - env | grep -e GTM_ >> .env.production
+        - env | grep -e RECAPTCHA_ >> .env.production
+        - env | grep -e DATABASE_ >> .env.production
+        - env | grep -e SENTRY_ >> .env.production
+        - env | grep -e AIRFLOW_ >> .env.production
+        - NODE_OPTIONS=--max-old-space-size=4096 npm run build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - node_modules/**/*

@@ -1,0 +1,38 @@
+[
+    {
+        "okrGroupId": 1,
+        "okrGroupToc": "STRENGTHEN",
+        "okrGroupObjective": "Partner with Government of Liberia and community health coalition to increase government ownership and sustainable financing, strengthen community health workforce, integrate gender mainstreaming and institutionalize the National Community Health Program within the Liberian Health Sector."
+    },
+    {
+        "okrGroupId": 2,
+        "okrGroupToc": "DELIVER",
+        "okrGroupObjective": "Improve County Health Team's capacity to deliver high quality community health services in counties of direct implementation"
+    },
+    {
+        "okrGroupId": 3,
+        "okrGroupToc": "DELIVER",
+        "okrGroupObjective": "Design and test new innovations that address key gaps in service delivery and can be scaled through integration of future policy iterations"
+    },
+      {
+        "okrGroupId": 4,
+        "okrGroupToc": "IMPACT MEASUREMENT",
+        "okrGroupObjective": "Improve national community based information systems that ensures the collection, analysis, and use of reliable and timely community health information for evidence based decision making, learnings, feedback and digital transformation"
+    },
+      {
+        "okrGroupId": 5,
+        "okrGroupToc": "MANAGE",
+        "okrGroupObjective": "Foster a DEI centered organizational culture to create equitable opportunities that reflects organizational goals, promotes effective communication, improves team trust and meets the  needs of all team members"
+    },
+      {
+        "okrGroupId": 6,
+        "okrGroupToc": "MANAGE",
+        "okrGroupObjective": "Maintain strong internal systems and policies to optimize compliance and use of data that enable the efficient and effective management of programs, people and resources"
+    },
+      {
+        "okrGroupId": 7,
+        "okrGroupToc": "RESOURCE MOBILIZATION",
+        "okrGroupObjective": "Increase multi-year strategic funding generated for the Liberia Program through strengthening  program design, communications and branding, ensuring compliance to systems and policies and nurturing strategic relationships"
+    }
+
+]

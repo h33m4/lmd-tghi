@@ -1,0 +1,207 @@
+[
+  {
+    "id": 1,
+    "term": "AEHO",
+    "fullname": "Assistant Environmental Health Officer"
+  },
+  {
+    "id": 2,
+    "term": "AFF",
+    "fullname": "Africa Frontline First"
+  },
+  {
+    "id": 3,
+    "term": "ARI",
+    "fullname": "Acute Respiratory Infection"
+  },
+  {
+    "id": 4,
+    "term": "CBMNC",
+    "fullname": "Community-Based Maternal and Newborn Care"
+  },
+  {
+    "id": 5,
+    "term": "CHA",
+    "fullname": "Community Health Assistant"
+  },
+  {
+    "id": 6,
+    "term": "CHN",
+    "fullname": "Community Health Nurse"
+  },
+  {
+    "id": 7,
+    "term": "CHP",
+    "fullname": "Community Health Promoter"
+  },
+  {
+    "id": 8,
+    "term": "CHSS",
+    "fullname": "Community Health Services Supervisor"
+  },
+  {
+    "id": 9,
+    "term": "CHW",
+    "fullname": "Community Health Worker"
+  },
+  {
+    "id": 10,
+    "term": "CMA",
+    "fullname": "Community Midwife Assistant"
+  },
+  {
+    "id": 11,
+    "term": "eCBIS",
+    "fullname": "Electronic Community-Based Information System"
+  },
+  {
+    "id": 12,
+    "term": "EHO",
+    "fullname": "Environmental Health Officer"
+  },
+  {
+    "id": 13,
+    "term": "FHW",
+    "fullname": "Frontline health worker"
+  },
+  {
+    "id": 14,
+    "term": "FY",
+    "fullname": "Fiscal Year (from July 1 to June 30)"
+  },
+  {
+    "id": 15,
+    "term": "HBP",
+    "fullname": "Health Benefit Package"
+  },
+  {
+    "id": 16,
+    "term": "HEP",
+    "fullname": "Health Extension Program"
+  },
+  {
+    "id": 17,
+    "term": "HEW",
+    "fullname": "Health Extension Worker"
+  },
+  {
+    "id": 18,
+    "term": "HSA",
+    "fullname": "Health Surveillance Assistant"
+  },
+  {
+    "id": 19,
+    "term": "iCCM",
+    "fullname": "Integrated Child Case Management"
+  },
+  {
+    "id": 20,
+    "term": "iCHIS",
+    "fullname": "Integrated Community Health Information System"
+  },
+  {
+    "id": 21,
+    "term": "IFI",
+    "fullname": "Implementation Fidelity Initiative"
+  },
+  {
+    "id": 22,
+    "term": "IRT",
+    "fullname": "Integrated Refresher Training"
+  },
+  {
+    "id": 23,
+    "term": "KPI",
+    "fullname": "Key Performance Indicator"
+  },
+  {
+    "id": 24,
+    "term": "LMH",
+    "fullname": "Last Mile Health"
+  },
+  {
+    "id": 25,
+    "term": "LMS",
+    "fullname": "Last Mile Survey"
+  },
+  {
+    "id": 26,
+    "term": "MCD",
+    "fullname": "Major Communicable Disease"
+  },
+  {
+    "id": 27,
+    "term": "MERL",
+    "fullname": "Monitoring, Evaluation, Research, and Learning"
+  },
+  {
+    "id": 28,
+    "term": "MOH",
+    "fullname": "Ministry of Health"
+  },
+  {
+    "id": 29,
+    "term": "N/A",
+    "fullname": "Not Applicable"
+  },
+  {
+    "id": 30,
+    "term": "NCD",
+    "fullname": "Non-Communicable Disease"
+  },
+  {
+    "id": 31,
+    "term": "NCHP",
+    "fullname": "National Community Health Program (Liberia)"
+  },
+  {
+    "id": 32,
+    "term": "NCHWP",
+    "fullname": "National Community Health Worker Program (Sierra Leone)"
+  },
+  {
+    "id": 33,
+    "term": "Q",
+    "fullname": "Quarter (Q1=Jul-Sep, Q2=Oct-Dec, Q3=Jan-Mar, Q4=Apr=Jun)"
+  },
+  {
+    "id": 34,
+    "term": "QRM",
+    "fullname": "Quarterly Review Meetings"
+  },
+  {
+    "id": 35,
+    "term": "RMNCH",
+    "fullname": "Reproductive, Maternal, Newborn and Child Health"
+  },
+  {
+    "id": 36,
+    "term": "SBCC",
+    "fullname": "Social Behavioural Communication and Change"
+  },
+  {
+    "id": 37,
+    "term": "SHSA",
+    "fullname": "Senior Health Surveillance Assistant"
+  },
+  {
+    "id": 38,
+    "term": "TA",
+    "fullname": "Technical Assistance"
+  },
+  {
+    "id": 39,
+    "term": "TOC",
+    "fullname": "Theory of Change"
+  },
+  {
+    "id": 40,
+    "term": "TOT",
+    "fullname": "Training of Trainers"
+  },
+  {
+    "id": 41,
+    "term": "TWG",
+    "fullname": "Technical Working Group"
+  }
+]

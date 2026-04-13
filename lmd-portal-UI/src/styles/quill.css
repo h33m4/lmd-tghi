@@ -1,0 +1,124 @@
+/* React Quill */
+.react-quill .ql-toolbar.ql-snow {
+  @apply flex flex-wrap items-center gap-1.5 rounded-t-md border-[1.8px] border-muted;
+}
+
+.react-quill .ql-container.ql-snow {
+  @apply rounded-b-md border-[1.8px] border-muted;
+}
+
+.react-quill .ql-editor {
+  @apply max-h-96 overflow-y-auto;
+}
+
+.react-quill .ql-toolbar.ql-snow .ql-formats {
+  @apply mr-0;
+}
+
+.react-quill-toolbar-bottom {
+  @apply pb-[41px];
+}
+
+.react-quill-toolbar-bottom .ql-toolbar.ql-snow {
+  @apply absolute bottom-0 left-0 right-0 rounded-b-md rounded-t-none;
+}
+
+.react-quill-toolbar-bottom .ql-container.ql-snow {
+  @apply rounded-b-none rounded-t-md;
+}
+
+.react-quill-toolbar-bottom .ql-toolbar.ql-snow + .ql-container.ql-snow {
+  border-top: 1px solid;
+  @apply border-t-gray-300;
+}
+
+/** All toolbar buttons are inside of .ql-formats */
+.ql-formats button,
+.ql-formats > span {
+  position: relative;
+  /** Set a tooltip with css pseudo-elements, when buttons are hover, active or focus */
+}
+
+.ql-formats button:hover::before,
+.ql-formats > span:hover::before {
+  content: "";
+  @apply absolute left-1/2 top-[-9px] z-10 -translate-x-1/2 transform border-x-[7px] border-y-[6px] border-solid border-transparent border-t-[#0d1e42];
+}
+
+.ql-formats button:hover::after,
+.ql-formats > span:hover::after {
+  @apply absolute left-1/2 top-[-41px] z-50 -translate-x-1/2 whitespace-nowrap rounded-md bg-[#0d1e42] px-2.5 py-2 text-xs text-white;
+}
+
+/** Set tooltip content for toolbar options **/
+.ql-bold:hover::after {
+  content: "Bold";
+}
+
+.ql-italic:hover::after {
+  content: "Italic";
+}
+
+.ql-underline:hover::after {
+  content: "Underline";
+}
+
+.ql-strike:hover::after {
+  content: "Strikeout";
+}
+
+.ql-link:hover::after {
+  content: "Hyperlink";
+}
+
+.ql-blockquote:hover::after {
+  content: "Quote";
+}
+
+.ql-code-block:hover::after {
+  content: "Code Block";
+}
+
+.ql-list[value="bullet"]:hover::after {
+  content: "Bulleted List";
+}
+
+.ql-list[value="ordered"]:hover::after {
+  content: "Numbered List";
+}
+
+.ql-script[value="sub"]:hover::after {
+  content: "Sub Script";
+}
+
+.ql-script[value="super"]:hover::after {
+  content: "Super Script";
+}
+
+.ql-indent[value="-1"]:hover::after {
+  content: "Indent -1";
+}
+
+.ql-indent[value="+1"]:hover::after {
+  content: "Indent +1";
+}
+
+.ql-color:hover::after {
+  content: "Text Color";
+}
+
+.ql-background:hover::after {
+  content: "Background Color";
+}
+
+.ql-align:hover::after {
+  content: "Text Align";
+}
+
+.ql-clean:hover::after {
+  content: "Clear Formatting";
+}
+
+.ql-font:hover::after {
+  content: "Font Family";
+}

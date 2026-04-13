@@ -1,0 +1,1087 @@
+[
+  {
+    "okrId": "1.1",
+    "objectiveToc": "STRENGTHEN",
+    "objective": "Partner with Government of Liberia and community health coalition to increase government ownership and sustainable financing, strengthen community health workforce, integrate gender mainstreaming and institutionalize the National Community Health Program within the Liberian Health Sector.",
+    "keyResult": "30% of gaps identified from the annual capacity development plan for four MOH directorates (CHSD, HFU, HMER and HRH) are identified gaps addressed by Q4 (BIRCH, Co-Impact, LGT)",
+    "targetValue": 30,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 80,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 10,
+        "narrative": "Initial assessment completed for CHSD and HFU. Capacity gaps documented."
+      },
+      {
+        "month": "February 2024",
+        "value": 18,
+        "narrative": "Training workshops initiated to address HRH capacity needs."
+      },
+      {
+        "month": "March 2024",
+        "value": 24,
+        "narrative": "Three directorates met 70% of their capacity goals. Momentum strong."
+      }
+    
+    ],
+    "chartType": "bar",
+    "chartMetadata": {
+      "metricType": "percentage"
+    }
+  },
+  {
+    "okrId": "1.2",
+    "objectiveToc": "STRENGTHEN",
+    "objective": "Partner with Government of Liberia and community health coalition to increase government ownership and sustainable financing, strengthen community health workforce, integrate gender mainstreaming and institutionalize the National Community Health Program within the Liberian Health Sector.",
+    "keyResult": "CHW master list is fully utilized by the MOH with 80% of CHWs data incorporated by Q3 (BIRCH)",
+    
+    "targetValue": 80,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 81,
+    "monthlyUpdates": [
+      {
+        "month": "012024",
+        "value": 45,
+        "narrative": "Data integration began across three pilot counties."
+      },
+      {
+        "month": "022024",
+        "value": 55,
+        "narrative": "System sync improved, with 10% more CHW records uploaded."
+      },
+      {
+        "month": "March 2024",
+        "value": 65,
+        "narrative": "MOH fully using system for CHW tracking in 8 counties."
+      }
+    ],
+    "chartType": "bar",
+    "chartMetadata": {
+      "metricType": "percentage"
+    }
+  },
+  {
+    "okrId": "1.3",
+    "objectiveToc": "STRENGTHEN",
+    "objective": "Partner with Government of Liberia and community health coalition to increase government ownership and sustainable financing, strengthen community health workforce, integrate gender mainstreaming and institutionalize the National Community Health Program within the Liberian Health Sector.",
+    "keyResult": "10% improvement in maturity model assessment scores related to Supply Chain in LMH managed county as compared to the previous year is achieved by Q4 (BIRCH, LGT)",
+        "targetValue": 10,
+    "unit": "percent",
+    "status": "behind",
+    "progress": 60,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 3,
+        "narrative": "Supply chain mapping completed in two counties."
+      },
+      {
+        "month": "February 2024",
+        "value": 5,
+        "narrative": "Training rollout delayed due to vendor contract issues."
+      },
+      {
+        "month": "March 2024",
+        "value": 6,
+        "narrative": "Catch-up plan initiated to reach target by Q4."
+      }
+    ],
+    "chartType": "line",
+    "chartMetadata": {
+      "metricType": "percentage"
+    }
+  },
+  {
+    "okrId": "1.4",
+    "objectiveToc": "STRENGTHEN",
+    "objective": "Partner with Government of Liberia and community health coalition to increase government ownership and sustainable financing, strengthen community health workforce, integrate gender mainstreaming and institutionalize the National Community Health Program within the Liberian Health Sector.",
+    "keyResult": "Collaborate with the MOH to ensure that at least 12 counties have secured funding for the NCHP for at least a year.",
+    "targetValue": 12,
+    "maxValue": 15,
+    "minValue": 1,
+    "unit": "counties",
+    "status": "on-track",
+    "progress": 83,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 8,
+        "narrative": "Funding secured in eight counties through MOH partnership."
+      },
+      {
+        "month": "February 2024",
+        "value": 9,
+        "narrative": "Donor engagement strengthened in two new regions."
+      },
+      {
+        "month": "March 2024",
+        "value": 10,
+        "narrative": "Agreements signed with GOL for two additional counties."
+      }
+    ],
+    "chartType": "geomap",
+    "chartMetadata": {
+      "metricType": "count"
+    }
+  },
+  {
+    "okrId": "1.5",
+    "objectiveToc": "STRENGTHEN",
+    "objective": "Partner with Government of Liberia and community health coalition to increase government ownership and sustainable financing, strengthen community health workforce, integrate gender mainstreaming and institutionalize the National Community Health Program within the Liberian Health Sector.",
+    "keyResult": "Financial resources available to implement core community health services in Grand Bassa secured by the start of Q3",
+    "targetValue": 1,
+    "unit": "yess_no",
+    "status": "achieved",
+    "progress": 100,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 0,
+        "narrative": "Proposal submitted to MOH and awaiting approval."
+      },
+      {
+        "month": "February 2024",
+        "value": 1,
+        "narrative": "Funding confirmed for Grand Bassa activities."
+      },
+      {
+        "month": "March 2024",
+        "value": 1,
+        "narrative": "Program launched with full budget allocation."
+      }
+    ],
+    "chartType": "binary",
+    "chartMetadata": {
+      "metricType": "yess_no"
+    }
+  },
+  {
+    "okrId": "2.1",
+    "objectiveToc": "DELIVER",
+    "objective": "Improve County Health Team's capacity to deliver high quality community health services in counties of direct implementation.",
+    "keyResult": "80% of CHAs trained in LMH supported counties received a passing score on the post-training skills assessment for the revised paper-based NCHP curriculum",
+    
+    "targetValue": 80,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 75,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 45,
+        "narrative": "Training completed in Grand Bassa with 45% pass rate."
+      },
+      {
+        "month": "February 2024",
+        "value": 55,
+        "narrative": "Improved supervision leading to higher assessment outcomes."
+      },
+      {
+        "month": "March 2024",
+        "value": 60,
+        "narrative": "Additional coaching for low-performing trainees initiated."
+      }
+    ],
+    "chartType": "line",
+    "chartMetadata": {
+      "metricType": "percentage"
+    }
+  },
+  {
+    "okrId": "2.2",
+    "objectiveToc": "DELIVER",
+    "objective": "Improve County Health Team's capacity to deliver high quality community health services in counties of direct implementation.",
+    "keyResult": "90% of CHAs in LMH supported counties receive correct and on-time payments monthly as reported through IFI (Co-Impact)",
+    
+    "targetValue": 90,
+    "unit": "percent",
+    "status": "achieved",
+    "progress": 102,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 85,
+        "narrative": "Minor delays in payment processing in two districts."
+      },
+      {
+        "month": "February 2024",
+        "value": 90,
+        "narrative": "Automated payroll system stabilized."
+      },
+      {
+        "month": "March 2024",
+        "value": 92,
+        "narrative": "Payments consistently processed on time."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  },
+  {
+    "okrId": "2.3",
+    "objectiveToc": "DELIVER",
+    "objective": "Improve County Health Team's capacity to deliver high quality community health services in counties of direct implementation.",
+    "keyResult": "95% of communities have a CHC and 85% of those report conducting a CHC meeting in the last month (Light)",
+    
+    "targetValue": 95,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 84,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 70,
+        "narrative": "CHC coverage expanding with strong participation."
+      },
+      {
+        "month": "February 2024",
+        "value": 75,
+        "narrative": "Monthly meetings conducted in 70% of active CHCs."
+      },
+      {
+        "month": "March 2024",
+        "value": 80,
+        "narrative": "Community mobilization teams improving attendance rates."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  },
+  {
+    "okrId": "2.4",
+    "objectiveToc": "DELIVER",
+    "objective": "Improve County Health Team's capacity to deliver high quality community health services in counties of direct implementation.",
+    "keyResult": "50% of CHAs in the LMH supported counties with all community health tracer drugs in stock (Co-Impact)",
+    
+    "targetValue": 50,
+    "unit": "percent",
+    "status": "behind",
+    "progress": 84,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 35,
+        "narrative": "Stock-out of malaria tracer drugs reported in 3 counties."
+      },
+      {
+        "month": "February 2024",
+        "value": 38,
+        "narrative": "Supply chain monitoring tool rolled out."
+      },
+      {
+        "month": "March 2024",
+        "value": 42,
+        "narrative": "Restocking initiated; improvement expected next quarter."
+      }
+    ],
+    "chartType": "line",
+    "chartMetadata": {
+      "metricType": "percentage"
+    }
+  },
+  {
+    "okrId": "2.5",
+    "objectiveToc": "DELIVER",
+    "objective": "Improve County Health Team's capacity to deliver high quality community health services in counties of direct implementation.",
+    "keyResult": "40% of all newly recruited Community Health Workers in Last Mile Health supported counties are females (Co-Impact)",
+    
+    "targetValue": 40,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 93,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 30,
+        "narrative": "Gender-sensitive recruitment guidelines introduced."
+      },
+      {
+        "month": "February 2024",
+        "value": 35,
+        "narrative": "Local outreach campaigns encouraging female applicants."
+      },
+      {
+        "month": "March 2024",
+        "value": 37,
+        "narrative": "On track to meet target by Q2."
+      }
+    ],
+    "chartType": "line",
+    "chartMetadata": {
+      "metricType": "percentage"
+    }
+  },
+  {
+    "okrId": "2.6",
+    "objectiveToc": "DELIVER",
+    "objective": "Improve County Health Team's capacity to deliver high quality community health services in counties of direct implementation.",
+    "keyResult": "90% of CHAs receive 2+ supervision visits monthly in Last Mile Health supported counties (Co-Impact)",
+    
+    "targetValue": 90,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 97,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 80,
+        "narrative": "Increased supervisory visits across LMH counties."
+      },
+      {
+        "month": "February 2024",
+        "value": 85,
+        "narrative": "Transport support improved consistency of visits."
+      },
+      {
+        "month": "March 2024",
+        "value": 87,
+        "narrative": "Target nearly achieved, coverage at 87%."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  },
+  {
+    "okrId": "3.1",
+    "objectiveToc": "DELIVER (Innovation)",
+    "objective": "Design and test new innovations that address key gaps in service delivery and can be scaled through integration of future policy iterations.",
+    "keyResult": "75% of healthcare facilities in all counties reporting monthly malaria immunization outreach data (GSK)",
+    
+    "targetValue": 75,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 77,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 40,
+        "narrative": "Initial rollout to 5 counties with early adoption."
+      },
+      {
+        "month": "February 2024",
+        "value": 50,
+        "narrative": "Improved data reporting after refresher training."
+      },
+      {
+        "month": "March 2024",
+        "value": 58,
+        "narrative": "Increased facility compliance across remaining regions."
+      }
+    ],
+    "chartType": "line",
+    "chartMetadata": {
+      "metricType": "percentage"
+    }
+  },
+  {
+    "okrId": "3.2",
+    "objectiveToc": "DELIVER (Innovation)",
+    "objective": "Design and test new innovations that address key gaps in service delivery and can be scaled through integration of future policy iterations.",
+    "keyResult": "Roll out community WASH innovation to address water borne disease in Rivercess and has potential to scale (Light)",
+        "targetValue": 1,
+    "unit": "innovation",
+    "status": "achieved",
+    "progress": 100,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 0,
+        "narrative": "Pilot framework finalized."
+      },
+      {
+        "month": "February 2024",
+        "value": 1,
+        "narrative": "WASH innovation successfully rolled out."
+      },
+      {
+        "month": "March 2024",
+        "value": 1,
+        "narrative": "Positive feedback from community, scalability under review."
+      }
+    ],
+    "chartType": "donut",
+    "chartMetadata": {
+      "metricType": "binary",
+      "dataPoints": 3,
+      "recommendedChart": "donut"
+    }
+  },
+  {
+    "okrId": "3.3",
+    "objectiveToc": "DELIVER (Innovation)",
+    "objective": "Design and test new innovations that address key gaps in service delivery and can be scaled through integration of future policy iterations.",
+    "keyResult": "2,000 mothers in Rivercess received 1 maternal health education, awareness campaign, or social and behavior change communication activity by Q2 (MERK)",
+    "targetValue": 2000,
+    "unit": "mothers",
+    "status": "on-track",
+    "progress": 88,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 800,
+        "narrative": "Awareness campaigns launched in 10 districts."
+      },
+      {
+        "month": "February 2024",
+        "value": 1350,
+        "narrative": "Strong turnout during maternal health week."
+      },
+      {
+        "month": "March 2024",
+        "value": 1750,
+        "narrative": "Target nearly reached through extended radio campaigns."
+      }
+    ],
+    "chartType": "area",
+    "chartMetadata": {
+      "metricType": "count",
+      "dataPoints": 3,
+      "recommendedChart": "area"
+    }
+  },
+  {
+    "okrId": "3.4",
+    "objectiveToc": "DELIVER (Innovation)",
+    "objective": "Design and test new innovations that address key gaps in service delivery and can be scaled through integration of future policy iterations.",
+    "keyResult": "All female CHSS trained in Rivercess receive motorbike safety training (Light).",
+    "targetValue": 100,
+    "unit": "percent",
+    "status": "achieved",
+    "progress": 100,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 60,
+        "narrative": "Training began with first cohort of CHSS women."
+      },
+      {
+        "month": "February 2024",
+        "value": 85,
+        "narrative": "Additional sessions completed in 3 districts."
+      },
+      {
+        "month": "March 2024",
+        "value": 100,
+        "narrative": "All female CHSS successfully certified."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  },
+  {
+    "okrId": "4.1",
+    "objectiveToc": "IMPACT MEASUREMENT",
+    "objective": "Improve national community-based information systems that ensure the collection, analysis, and use of reliable and timely community health information for evidence-based decision making, learning, feedback and digital transformation.",
+    "keyResult": "95% of CHSS Monthly Service Reports (MSRs) accurately completed and submitted on time by Q4 (Light, Co-Impact)",
+    
+    "targetValue": 95,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 97,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 88,
+        "narrative": "MSR template simplified; compliance increased."
+      },
+      {
+        "month": "February 2024",
+        "value": 90,
+        "narrative": "On-time submissions improving with supervision support."
+      },
+      {
+        "month": "March 2024",
+        "value": 92,
+        "narrative": "System automation nearing completion."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  },
+  {
+    "okrId": "4.2",
+    "objectiveToc": "IMPACT MEASUREMENT",
+    "objective": "Improve national community-based information systems that ensure the collection, analysis, and use of reliable and timely community health information for evidence-based decision making, learning, feedback and digital transformation.",
+    "keyResult": "Seconded eCBIS Project Manager to the Ministry of Health to strengthen design and implementation of long-term roadmap by Q4",
+        "targetValue": 1,
+    "unit": "position",
+    "status": "achieved",
+    "progress": 100,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 0,
+        "narrative": "Recruitment process initiated."
+      },
+      {
+        "month": "February 2024",
+        "value": 1,
+        "narrative": "Project Manager onboarded and seconded to MOH."
+      },
+      {
+        "month": "March 2024",
+        "value": 1,
+        "narrative": "Roadmap design underway with MOH collaboration."
+      }
+    ],
+    "chartType": "donut",
+    "chartMetadata": {
+      "metricType": "binary",
+      "dataPoints": 3,
+      "recommendedChart": "donut"
+    }
+  },
+  {
+    "okrId": "4.3",
+    "objectiveToc": "IMPACT MEASUREMENT",
+    "objective": "Improve national community-based information systems that ensure the collection, analysis, and use of reliable and timely community health information for evidence-based decision making, learning, feedback and digital transformation.",
+    "keyResult": "95% of CHSS electronic Logistics Management Information Systems data (eLMIS) accurately completed and submitted on time by Q4 (Light, Co-Impact)",
+    
+    "targetValue": 95,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 93,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 75,
+        "narrative": "System transition caused short delays in reporting."
+      },
+      {
+        "month": "February 2024",
+        "value": 82,
+        "narrative": "Improved data entry after refresher trainings."
+      },
+      {
+        "month": "March 2024",
+        "value": 88,
+        "narrative": "Approaching target with consistent submissions."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  },
+  {
+    "okrId": "4.4",
+    "objectiveToc": "IMPACT MEASUREMENT",
+    "objective": "Improve national community-based information systems that ensure the collection, analysis, and use of reliable and timely community health information for evidence-based decision making, learning, feedback and digital transformation.",
+    "keyResult": "CBIS, IFI and AAR data reviewed monthly and actions taken reflected in the Liberia Evidence, Recommendations, and Action Dashboard",
+        "targetValue": 12,
+    "unit": "reviews",
+    "status": "on-track",
+    "progress": 75,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 3,
+        "narrative": "First quarterly review session completed."
+      },
+      {
+        "month": "February 2024",
+        "value": 6,
+        "narrative": "Action dashboard launched and populated."
+      },
+      {
+        "month": "March 2024",
+        "value": 9,
+        "narrative": "Monthly reviews now routine at national level."
+      }
+    ],
+    "chartType": "area",
+    "chartMetadata": {
+      "metricType": "count",
+      "dataPoints": 3,
+      "recommendedChart": "area"
+    }
+  },
+  {
+    "okrId": "4.5",
+    "objectiveToc": "IMPACT MEASUREMENT",
+    "objective": "Improve national community-based information systems that ensure the collection, analysis, and use of reliable and timely community health information for evidence-based decision making, learning, feedback and digital transformation.",
+    "keyResult": "95% projects complete a learning activity (data review, AAR, PRMs, etc.) by end of Q4",
+    
+    "targetValue": 95,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 87,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 70,
+        "narrative": "Teams engaged in data review activities."
+      },
+      {
+        "month": "February 2024",
+        "value": 78,
+        "narrative": "PRMs and learning workshops held in multiple sites."
+      },
+      {
+        "month": "March 2024",
+        "value": 83,
+        "narrative": "More projects integrating AARs in their workflow."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  },
+  {
+    "okrId": "5.1",
+    "objectiveToc": "MANAGE (Culture & DEI)",
+    "objective": "Foster a DEI-centered organizational culture to create equitable opportunities that reflect organizational goals, promote effective communication, improve team trust and meet the needs of all team members.",
+    "keyResult": "A sustainable workforce strategy developed that reflects LMH's DEI culture.",
+        "targetValue": 1,
+    "unit": "strategy",
+    "status": "achieved",
+    "progress": 100,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 0,
+        "narrative": "Framework design initiated."
+      },
+      {
+        "month": "February 2024",
+        "value": 1,
+        "narrative": "Strategy finalized with HR leadership input."
+      },
+      {
+        "month": "March 2024",
+        "value": 1,
+        "narrative": "Approved by executive leadership and shared org-wide."
+      }
+    ],
+    "chartType": "donut",
+    "chartMetadata": {
+      "metricType": "binary",
+      "dataPoints": 3,
+      "recommendedChart": "donut"
+    }
+  },
+  {
+    "okrId": "5.2",
+    "objectiveToc": "MANAGE (Culture & DEI)",
+    "objective": "Foster a DEI-centered organizational culture to create equitable opportunities that reflect organizational goals, promote effective communication, improve team trust and meet the needs of all team members.",
+    "keyResult": "15% reduction in employee relations issues related to workplace policies violations by end of Q4.",
+    
+    "targetValue": 15,
+    "unit": "percent reduction",
+    "status": "on-track",
+    "progress": 67,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 4,
+        "narrative": "Policy refresher sessions launched."
+      },
+      {
+        "month": "February 2024",
+        "value": 7,
+        "narrative": "Manager training improved grievance handling."
+      },
+      {
+        "month": "March 2024",
+        "value": 10,
+        "narrative": "Workplace conflicts reduced significantly."
+      }
+    ],
+    "chartType": "line",
+    "chartMetadata": {
+      "metricType": "percentage"
+    }
+  },
+  {
+    "okrId": "5.3",
+    "objectiveToc": "MANAGE (Culture & DEI)",
+    "objective": "Foster a DEI-centered organizational culture to create equitable opportunities that reflect organizational goals, promote effective communication, improve team trust and meet the needs of all team members.",
+    "keyResult": "80% of participants of the DEI training reporting an increased application of DEI principles in day-to-day work by the end of Q4.",
+    
+    "targetValue": 80,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 98,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 60,
+        "narrative": "First round of DEI training completed."
+      },
+      {
+        "month": "February 2024",
+        "value": 70,
+        "narrative": "Staff workshops focused on inclusive leadership."
+      },
+      {
+        "month": "March 2024",
+        "value": 78,
+        "narrative": "Improved application of DEI principles in teams."
+      }
+    ],
+    "chartType": "line",
+    "chartMetadata": {
+      "metricType": "percentage"
+    }
+  },
+  {
+    "okrId": "5.4",
+    "objectiveToc": "MANAGE (Culture & DEI)",
+    "objective": "Foster a DEI-centered organizational culture to create equitable opportunities that reflect organizational goals, promote effective communication, improve team trust and meet the needs of all team members.",
+    "keyResult": "Staff engagement programs developed and initiated with visible impact on staff motivation and 90% overall retention by Q4.",
+    
+    "targetValue": 90,
+    "unit": "percent retention",
+    "status": "on-track",
+    "progress": 94,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 80,
+        "narrative": "Engagement survey conducted to inform programs."
+      },
+      {
+        "month": "February 2024",
+        "value": 83,
+        "narrative": "Staff appreciation initiatives launched."
+      },
+      {
+        "month": "March 2024",
+        "value": 85,
+        "narrative": "Retention stable, motivation levels improving."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  },
+  {
+    "okrId": "6.1",
+    "objectiveToc": "MANAGE (Systems)",
+    "objective": "Maintain strong internal systems and policies to optimize compliance and use of data that enable efficient and effective management of programs, people and resources.",
+    "keyResult": "90% of all the procurements raised from Tradogram are closed inline with the terms and conditions of the agreement every month.",
+    
+    "targetValue": 90,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 97,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 82,
+        "narrative": "Procurement delays reduced with new tracker."
+      },
+      {
+        "month": "February 2024",
+        "value": 85,
+        "narrative": "Automated alerts improving closure rate."
+      },
+      {
+        "month": "March 2024",
+        "value": 87,
+        "narrative": "Compliance checks integrated into workflow."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  },
+  {
+    "okrId": "6.2",
+    "objectiveToc": "MANAGE (Systems)",
+    "objective": "Maintain strong internal systems and policies to optimize compliance and use of data that enable efficient and effective management of programs, people and resources.",
+    "keyResult": "Payroll processed via HRIS by the 15th of each month with no errors.",
+    "targetValue": 100,
+    "unit": "percent",
+    "status": "achieved",
+    "progress": 100,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 100,
+        "narrative": "Payroll completed on schedule."
+      },
+      {
+        "month": "February 2024",
+        "value": 100,
+        "narrative": "Zero payroll discrepancies reported."
+      },
+      {
+        "month": "March 2024",
+        "value": 100,
+        "narrative": "Process fully automated and stable."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  },
+  {
+    "okrId": "6.3",
+    "objectiveToc": "MANAGE (Systems)",
+    "objective": "Maintain strong internal systems and policies to optimize compliance and use of data that enable efficient and effective management of programs, people and resources.",
+    "keyResult": "90% of staff members trained on safety and security, procurement, IT, fleet and finance policies to increase awareness and compliance by FY26 Q4.",
+    
+    "targetValue": 90,
+    "unit": "percent",
+    "status": "behind",
+    "progress": 72,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 40,
+        "narrative": "Training modules developed."
+      },
+      {
+        "month": "February 2024",
+        "value": 55,
+        "narrative": "Training delivered in 3 out of 5 regions."
+      },
+      {
+        "month": "March 2024",
+        "value": 65,
+        "narrative": "Rescheduling sessions for missed teams."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  },
+  {
+    "okrId": "6.4",
+    "objectiveToc": "MANAGE (Systems)",
+    "objective": "Maintain strong internal systems and policies to optimize compliance and use of data that enable efficient and effective management of programs, people and resources.",
+    "keyResult": "Approved and updated supplier database reflected in Tradogram and all relevant vendors contacted during procurement to increase fairness, transparency, and competitiveness.",
+        "targetValue": 1,
+    "unit": "database",
+    "status": "achieved",
+    "progress": 100,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 0,
+        "narrative": "Database audit completed."
+      },
+      {
+        "month": "February 2024",
+        "value": 1,
+        "narrative": "Supplier data verified and uploaded."
+      },
+      {
+        "month": "March 2024",
+        "value": 1,
+        "narrative": "Procurement team using updated vendor list."
+      }
+    ],
+    "chartType": "donut",
+    "chartMetadata": {
+      "metricType": "binary",
+      "dataPoints": 3,
+      "recommendedChart": "donut"
+    }
+  },
+  {
+    "okrId": "6.5",
+    "objectiveToc": "MANAGE (Systems)",
+    "objective": "Maintain strong internal systems and policies to optimize compliance and use of data that enable efficient and effective management of programs, people and resources.",
+    "keyResult": "98% of financial transactions processed through mobile money and digital banking.",
+    
+    "targetValue": 98,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 98,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 90,
+        "narrative": "Transition from cash payments initiated."
+      },
+      {
+        "month": "February 2024",
+        "value": 94,
+        "narrative": "Mobile banking adoption expanded to partners."
+      },
+      {
+        "month": "March 2024",
+        "value": 96,
+        "narrative": "Digital payments normalized across departments."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  },
+  {
+    "okrId": "7.1",
+    "objectiveToc": "MANAGE (Finance)",
+    "objective": "Ensure strong financial performance, compliance, and sustainability through effective budgeting, cost management, and financial reporting systems.",
+    "keyResult": "100% of donor reports submitted on time.",
+    "targetValue": 100,
+    "unit": "percent",
+    "status": "achieved",
+    "progress": 100,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 100,
+        "narrative": "Reports submitted within deadlines."
+      },
+      {
+        "month": "February 2024",
+        "value": 100,
+        "narrative": "No delays across all donor submissions."
+      },
+      {
+        "month": "March 2024",
+        "value": 100,
+        "narrative": "Continued 100% compliance maintained."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  },
+  {
+    "okrId": "7.2",
+    "objectiveToc": "MANAGE (Finance)",
+    "objective": "Ensure strong financial performance, compliance, and sustainability through effective budgeting, cost management, and financial reporting systems.",
+    "keyResult": "Variance between actuals and budget does not exceed 5% per quarter.",
+        "targetValue": 5,
+    "unit": "percent variance",
+    "status": "on-track",
+    "progress": 80,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 6,
+        "narrative": "Minor overspending on training costs."
+      },
+      {
+        "month": "February 2024",
+        "value": 5,
+        "narrative": "Budget alignment achieved mid-quarter."
+      },
+      {
+        "month": "March 2024",
+        "value": 4,
+        "narrative": "Variance stabilized below threshold."
+      }
+    ],
+    "chartType": "line",
+    "chartMetadata": {
+      "metricType": "percentage"
+    }
+  },
+  {
+    "okrId": "7.3",
+    "objectiveToc": "MANAGE (Finance)",
+    "objective": "Ensure strong financial performance, compliance, and sustainability through effective budgeting, cost management, and financial reporting systems.",
+    "keyResult": "75% of program managers trained in financial management by Q3.",
+    
+    "targetValue": 75,
+    "unit": "percent",
+    "status": "on-track",
+    "progress": 87,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 40,
+        "narrative": "Training curriculum developed."
+      },
+      {
+        "month": "February 2024",
+        "value": 55,
+        "narrative": "Sessions held for regional managers."
+      },
+      {
+        "month": "March 2024",
+        "value": 65,
+        "narrative": "Final batch planned for next quarter."
+      }
+    ],
+    "chartType": "line",
+    "chartMetadata": {
+      "metricType": "percentage"
+    }
+  },
+  {
+    "okrId": "7.4",
+    "objectiveToc": "MANAGE (Finance)",
+    "objective": "Ensure strong financial performance, compliance, and sustainability through effective budgeting, cost management, and financial reporting systems.",
+    "keyResult": "All audit recommendations implemented within 3 months of report submission.",
+    
+    "targetValue": 100,
+    "unit": "percent",
+    "status": "behind",
+    "progress": 90,
+    "monthlyUpdates": [
+      {
+        "month": "January 2024",
+        "value": 60,
+        "narrative": "Initial corrective actions completed."
+      },
+      {
+        "month": "February 2024",
+        "value": 80,
+        "narrative": "Major policy updates implemented."
+      },
+      {
+        "month": "March 2024",
+        "value": 90,
+        "narrative": "Final items pending management approval."
+      }
+    ],
+    "chartType": "gauge",
+    "chartMetadata": {
+      "metricType": "percentage",
+      "dataPoints": 3,
+      "recommendedChart": "gauge"
+    }
+  }
+]

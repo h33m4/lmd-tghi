@@ -1,0 +1,136 @@
+[
+  {
+    "Attributes": [
+      { "Name": "custom:title", "Value": "Senior Data Engineer" },
+      { "Name": "sub", "Value": "76a510b8-30cc-4573-a79f-4d80b9b14a19" },
+      { "Name": "email_verified", "Value": "true" },
+      { "Name": "custom:department", "Value": "GMERL" },
+      { "Name": "name", "Value": "Branford Gbieor" },
+      { "Name": "custom:role", "Value": "ADMINISTRATOR" },
+      { "Name": "email", "Value": "bgbieor@lastmilehealth.org" }
+    ],
+    "Enabled": true,
+    "UserCreateDate": "2024-02-19T11:12:54.550Z",
+    "UserLastModifiedDate": "2024-03-03T16:48:59.866Z",
+    "UserStatus": "CONFIRMED",
+    "Username": "bgbieor@lastmilehealth.org"
+  },
+  {
+    "Attributes": [
+      { "Name": "sub", "Value": "3f284e3d-3a71-4a42-bf2e-9ffb3792ec8f" },
+      { "Name": "email_verified", "Value": "true" },
+      { "Name": "custom:department", "Value": "GMERL" },
+      { "Name": "custom:role", "Value": "ADMINISTRATOR" },
+      { "Name": "email", "Value": "bsmwalwanda@gmail.com" }
+    ],
+    "Enabled": true,
+    "UserCreateDate": "2024-02-27T14:46:16.031Z",
+    "UserLastModifiedDate": "2024-03-03T16:48:02.376Z",
+    "UserStatus": "CONFIRMED",
+    "Username": "bsmwalwanda@gmail.com"
+  },
+  {
+    "Attributes": [
+      { "Name": "custom:title", "Value": "jajos82340@hidelux.com" },
+      { "Name": "sub", "Value": "a7f4e5a6-7863-427a-8cd7-095119b9c00a" },
+      { "Name": "custom:department", "Value": "GMERL" },
+      { "Name": "name", "Value": "jajos82340@hidelux.com" },
+      { "Name": "custom:role", "Value": "USER" },
+      { "Name": "email", "Value": "jajos82340@hidelux.com" }
+    ],
+    "Enabled": true,
+    "UserCreateDate": "2024-03-04T13:43:29.466Z",
+    "UserLastModifiedDate": "2024-03-04T13:43:29.466Z",
+    "UserStatus": "FORCE_CHANGE_PASSWORD",
+    "Username": "jajos82340@hidelux.com"
+  },
+  {
+    "Attributes": [
+      { "Name": "custom:title", "Value": "jajos82340@hidelux.com" },
+      { "Name": "sub", "Value": "54a522b1-6b7d-4071-a2b5-6bad14ab45fb" },
+      { "Name": "custom:department", "Value": "GMERL" },
+      { "Name": "name", "Value": "jajos82340@hidelux.com" },
+      { "Name": "custom:role", "Value": "USER" },
+      { "Name": "email", "Value": "jajos82340@hidelux.comh" }
+    ],
+    "Enabled": true,
+    "UserCreateDate": "2024-03-04T13:45:54.856Z",
+    "UserLastModifiedDate": "2024-03-04T13:45:54.856Z",
+    "UserStatus": "FORCE_CHANGE_PASSWORD",
+    "Username": "jajos82340@hidelux.comh"
+  },
+  {
+    "Attributes": [
+      { "Name": "custom:title", "Value": "Applications Developer" },
+      { "Name": "sub", "Value": "e7a580b3-7e18-45d6-97e4-aa3d95831215" },
+      { "Name": "email_verified", "Value": "true" },
+      { "Name": "custom:department", "Value": "GMERL" },
+      { "Name": "name", "Value": "John Kwame" },
+      { "Name": "custom:role", "Value": "ADMINISTRATOR" },
+      { "Name": "email", "Value": "jdunyo@lastmilehealth.org" },
+      {
+        "Name": "picture",
+        "Value": "https://lmd-2-portal-static-contents.s3.amazonaws.com/profile-pictures/JohnKwameDunyo.png"
+      }
+    ],
+    "Enabled": true,
+    "UserCreateDate": "2024-02-13T14:12:44.797Z",
+    "UserLastModifiedDate": "2024-03-03T16:47:25.409Z",
+    "UserStatus": "CONFIRMED",
+    "Username": "jdunyo@lastmilehealth.org"
+  },
+  {
+    "Attributes": [
+      { "Name": "custom:title", "Value": "Data Architect" },
+      { "Name": "sub", "Value": "aa53becf-6219-48fc-b840-4fe750b92eef" },
+      { "Name": "email_verified", "Value": "true" },
+      { "Name": "custom:department", "Value": "GMERL" },
+      { "Name": "name", "Value": "Jack Mlusu" },
+      { "Name": "custom:role", "Value": "ADMINISTRATOR" },
+      { "Name": "email", "Value": "jmlusu@lastmilehealth.org" }
+    ],
+    "Enabled": true,
+    "UserCreateDate": "2024-02-15T13:57:37.118Z",
+    "UserLastModifiedDate": "2024-03-03T16:46:40.510Z",
+    "UserStatus": "CONFIRMED",
+    "Username": "jmlusu@lastmilehealth.org"
+  },
+  {
+    "Attributes": [
+      { "Name": "custom:title", "Value": "Applications Developer" },
+      { "Name": "sub", "Value": "62dfa443-fc92-44ed-a394-69b78c55c7c5" },
+      { "Name": "email_verified", "Value": "true" },
+      { "Name": "custom:department", "Value": "GMERL" },
+      { "Name": "name", "Value": "Jon Dexter Kwams" },
+      { "Name": "custom:role", "Value": "USER" },
+      { "Name": "email", "Value": "jondexter20@gmail.com" },
+      {
+        "Name": "picture",
+        "Value": "https://lmd-2-portal-static-contents.s3.amazonaws.com/profile-pictures/JonDexterKwame.png"
+      }
+    ],
+    "Enabled": true,
+    "UserCreateDate": "2024-02-14T23:30:19.024Z",
+    "UserLastModifiedDate": "2024-03-03T17:43:47.473Z",
+    "UserStatus": "CONFIRMED",
+    "Username": "jondexter20@gmail.com"
+  },
+  {
+    "Attributes": [
+      {
+        "Name": "custom:title",
+        "Value": "baseModalRef.current?.closeModal();"
+      },
+      { "Name": "sub", "Value": "781ab8db-1cde-4a5c-8216-31509db1f3a9" },
+      { "Name": "custom:department", "Value": "GMERL" },
+      { "Name": "name", "Value": "baseModalRef.current?.closeModal();" },
+      { "Name": "custom:role", "Value": "USER" },
+      { "Name": "email", "Value": "jondexter20@gmail.comk" }
+    ],
+    "Enabled": true,
+    "UserCreateDate": "2024-03-04T13:48:25.197Z",
+    "UserLastModifiedDate": "2024-03-04T13:48:25.197Z",
+    "UserStatus": "FORCE_CHANGE_PASSWORD",
+    "Username": "jondexter20@gmail.comk"
+  }
+]

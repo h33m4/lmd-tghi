@@ -1,0 +1,168 @@
+/* 
+ * CRITICAL TABULATOR FIXES
+ * Add this to your globals.css or create tabulator-fixes.css
+ * 
+ * These fixes ensure ALL columns are visible
+ */
+
+/* Force Tabulator to take full width and allow scrolling */
+.tabulator-wrapper {
+  width: 100% !important;
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+}
+
+.tabulator {
+  width: 100% !important;
+}
+
+/* Ensure table holder allows horizontal scroll */
+.tabulator .tabulator-tableholder {
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+}
+
+/* Prevent responsive layout from hiding columns */
+.tabulator .tabulator-col.tabulator-responsive-collapse {
+  display: table-cell !important;
+}
+
+/* Ensure all columns are visible */
+.tabulator .tabulator-col {
+  display: table-cell !important;
+  min-width: 120px;
+}
+
+/* Frozen column styling (for ID column) */
+.tabulator .tabulator-frozen {
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 20 !important;
+  background-color: #fff !important;
+}
+
+.tabulator .tabulator-frozen.tabulator-frozen-left {
+  border-right: 2px solid #dee2e6 !important;
+}
+
+/* Header styling */
+.tabulator .tabulator-header {
+  background-color: #f8f9fa !important;
+  font-weight: 600 !important;
+}
+
+/* Ensure table can grow beyond container */
+.tabulator .tabulator-table {
+  min-width: 100%;
+  width: max-content;
+}
+
+/* Row hover effect */
+.tabulator .tabulator-row:hover {
+  background-color: #f0f9ff !important;
+}
+
+/* Loading overlay */
+.tabulator .tabulator-loader {
+  z-index: 30 !important;
+}
+
+/* Mobile scrolling hint */
+.tabulator-wrapper::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ddd 50%, transparent);
+  margin-top: 4px;
+}
+
+/* Ensure no max-width constraints */
+.tabulator,
+.tabulator-wrapper,
+.tabulator .tabulator-tableholder,
+.tabulator .tabulator-table {
+  max-width: none !important;
+}
+
+/* Force display of all headers */
+.tabulator .tabulator-headers {
+  display: flex !important;
+  width: max-content !important;
+}
+
+/* Fix for Next.js/Tailwind conflicts */
+.tabulator * {
+  box-sizing: border-box;
+}
+
+/* Scrollbar styling (optional - for better UX) */
+.tabulator-wrapper::-webkit-scrollbar {
+  height: 12px;
+}
+
+.tabulator-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 6px;
+}
+
+.tabulator-wrapper::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+.tabulator-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Print styles - show all columns when printing */
+@media print {
+  .tabulator-wrapper {
+    overflow: visible !important;
+  }
+  
+  .tabulator .tabulator-tableholder {
+    overflow: visible !important;
+  }
+  
+  .tabulator .tabulator-table {
+    width: 100% !important;
+  }
+}
+
+/* Debug mode - uncomment to see column boundaries */
+/*
+.tabulator .tabulator-col {
+  border: 1px solid red !important;
+}
+*/
+
+
+/*Theme the Tabulator element*/
+#example-table-theme{
+    background-color:#ccc;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+/*Theme the header*/
+#example-table-theme .tabulator-header {
+    background-color:#333;
+    color:#fff;
+}
+
+/*Allow column header names to wrap lines*/
+#example-table-theme .tabulator-header .tabulator-col,
+#example-table-theme .tabulator-header .tabulator-col-row-handle {
+    white-space: normal;
+}
+
+/*Color the table rows*/
+#example-table-theme .tabulator-tableholder .tabulator-table .tabulator-row{
+    color:#fff;
+    background-color: #666;
+}
+
+/*Color even rows*/
+    #example-table-theme .tabulator-tableholder .tabulator-table .tabulator-row:nth-child(even) {
+    background-color: #444;
+}

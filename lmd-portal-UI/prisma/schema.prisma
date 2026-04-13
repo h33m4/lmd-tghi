@@ -1,0 +1,178 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// Enums
+enum OkrStatus {
+  achieved
+  on_track
+  delayed
+  okr_under_review
+  at_risk
+}
+
+enum MilestoneStatus {
+  not_started
+  in_progress
+  completed
+}
+
+enum MeasurementUnit {
+  percent
+  number
+  currency
+  counties
+  yes_no
+  qualitative
+}
+
+enum CalculationMethod {
+  latest
+  cumulative
+  average
+}
+
+enum MetricType {
+  percentage
+  binary
+  count
+  yes_no
+}
+
+enum ChartType {
+  bar
+  line
+  pie
+  geomap
+  yes_no
+}
+
+enum ConfidenceLevel {
+  low
+  medium
+  high
+}
+
+// Models
+
+model OkrObjective {
+  id        String   @id @default(cuid())
+  number    Int      @unique // 1, 2, 3 … matches the prefix of okrId (e.g. "1" → KRs 1.1, 1.2)
+  text      String
+  toc       String   @default("")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  okrs      Okr[]
+
+  @@index([number])
+}
+
+model Okr {
+  id                String            @id @default(cuid())
+  okrId             String            @unique
+  // Normalized objective relation
+  objectiveId       String
+  okrObjective      OkrObjective      @relation(fields: [objectiveId], references: [id])
+  keyResult         String
+  priority          Int
+  status            OkrStatus
+  progress          Int
+  confidenceLevel   ConfidenceLevel
+  unit              MeasurementUnit
+  baseline          Float
+  targetValue       Float
+  minValue          Float?
+  maxValue          Float?
+  calculationMethod CalculationMethod
+  valuePrompt       String?
+  valueHint         String?
+  periodStart       DateTime
+  periodEnd         DateTime
+  chartMetricType   MetricType
+  chartType         ChartType
+  chartMetricUnit   String
+
+    // NEW: For percentage-based OKRs
+  denominator       Float?            // Total count (e.g., 200 total CHAs)
+  denominatorLabel  String?           // Description (e.g., "Total CHAs in supported counties")
+  numeratorLabel    String?           // Description (e.g., "CHAs who passed assessment")
+  
+  // Soft delete / archival
+  archived          Boolean           @default(false)
+  archivedAt        DateTime?
+  archivedBy        String?
+  
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  milestones        Milestone[]
+  monthlyUpdates    MonthlyUpdate[]
+
+  @@index([okrId])
+  @@index([objectiveId])
+  @@index([status])
+  @@index([archived])
+  @@index([periodStart])
+  @@index([periodEnd])
+  @@index([archived, status]) // Composite index for common queries
+}
+
+model Milestone {
+  id             String          @id @default(cuid())
+  milestone      String
+  dueDate        DateTime
+  status         MilestoneStatus
+  completionDate DateTime?
+  okrId          String
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+  okr            Okr             @relation(fields: [okrId], references: [id], onDelete: Cascade)
+
+  @@unique([okrId, milestone]) // Prevent duplicate milestones per OKR
+  @@index([okrId])
+  @@index([status])
+  @@index([dueDate])
+}
+
+model MonthlyUpdate {
+  id             String    @id @default(cuid())
+
+  //new
+  numerator           Float?    // Actual count (e.g., 160 CHAs passed)
+  denominatorOverride Float?    // Optional: Override OKR-level denominator if it changes
+  
+  // Computed or direct value
+  value               Float?    // Auto-calculated percentage OR direct value for non-percent units
+  
+
+  narrative      String
+  status         OkrStatus
+  risks          String[]
+  mitigations    String[]
+  month          Int
+  year           Int
+  okrId          String
+  createdByEmail String?
+  updatedByEmail String?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  okr            Okr       @relation(fields: [okrId], references: [id], onDelete: Cascade)
+
+  @@unique([okrId, month, year])
+  @@index([okrId])
+  @@index([month, year])
+  @@index([year])
+  @@index([status])
+  @@index([createdByEmail])
+  @@index([updatedByEmail])
+}
+
+model PortalConfig {
+  id        String   @id @default("global")
+  config    Json
+  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now())
+}
