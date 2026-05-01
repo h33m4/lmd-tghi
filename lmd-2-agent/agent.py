@@ -1,22 +1,29 @@
+import warnings
+warnings.filterwarnings("ignore", message="pkg_resources is deprecated")
+
 from langchain.tools import BaseTool
 from langchain_aws import ChatBedrockConverse
 from langgraph.prebuilt import create_react_agent
-import connectorx as cx
+from langchain_core.messages import AIMessage, ToolMessage
+from sqlalchemy import create_engine
+from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception_message
 import os
 from dotenv import load_dotenv
-import psycopg
+
 import json
 from datetime import datetime
+import pandas as pd
 
 from langgraph.checkpoint.postgres import PostgresSaver
 
 load_dotenv()
 
 DB_URI = os.getenv("DB_URI")
+MEM_DB_URI = os.getenv("MEM_DB_URI")
 MODEL_ID = os.getenv("MODEL_ID", "us.anthropic.claude-sonnet-4-20250514-v1:0")
 AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
 
-# ded
+THREAD_VERSION = "v3"
 
 
 class ConnectorXTool(BaseTool):
@@ -28,9 +35,8 @@ class ConnectorXTool(BaseTool):
         "Tables for Malawi kpis begin with mlw_"
         "Tables for Liberia kpis begin with lib_"
         "Tables for Ethiopia kpis begin with eth_"
-        "Tables for Sirre Leone kpis begin with sl_"
+        "Tables for Sierra Leone kpis begin with sl_"
         "Tables for Global Scale kpis begin with gs_"
-        ""
     )
 
     def __init__(self, db_uri: str, **kwargs):
@@ -38,18 +44,31 @@ class ConnectorXTool(BaseTool):
         self._db_uri = db_uri
 
     def _run(self, query: str) -> str:
+        print(f"Executing query: {query}")
         try:
-            print(f"Executing query: {query}")
-            df = cx.read_sql(self._db_uri, query)
+            engine = create_engine(self._db_uri)
+            with engine.connect() as conn:
+                df = pd.read_sql(query, conn.connection)
+
             print(f"Query successful, returned {len(df)} rows")
-            return df.to_json(orient="records")
+
+            if "table_name" in df.columns:
+                print("Tables found:")
+                for name in df["table_name"].tolist():
+                    print(f"  - {name}")
+
+            return json.dumps({
+                "status": "success",
+                "rows": df.astype(str).to_dict(orient="records")
+            })
+
         except Exception as e:
             print(f"Query failed with error: {str(e)}")
-            print(f"Error type: {type(e).__name__}")
-            return f"Error retrieving data: {e}"
-
-    async def _arun(self, query: str) -> str:
-        return self._run(query)
+            return json.dumps({
+                "status": "error",
+                "error": str(e),
+                "query": query
+            })
 
 
 class ContextTool(BaseTool):
@@ -69,59 +88,52 @@ class ContextTool(BaseTool):
         return self._run(query)
 
 
-class ResponseFormatterTool(BaseTool):
-    name: str = "response_formatter"
-    description: str = "Formats data and responses into human-readable format with tables and summaries using AI."
+def sanitize_message_history(messages: list) -> list:
+    """
+    For any AIMessage with unresolved tool_calls, inject a synthetic ToolMessage
+    immediately after it. Tracks injected IDs to avoid double-injecting.
+    """
+    responded_tool_ids = {
+        msg.tool_call_id
+        for msg in messages
+        if isinstance(msg, ToolMessage)
+    }
 
-    def _run(self, data: str) -> str:
-        try:
-            llm = ChatBedrockConverse(
-                model_id=MODEL_ID,
-                region_name=AWS_REGION,
-                temperature=0,
-            )
+    patched = []
+    injected_ids = set()
 
-            prompt = f"""Format this data into a human-readable summary with key insights:
-                Data: {data}
-                Please provide:
-                1. A brief summary of what the data shows
-                2. Key findings or patterns
-                3. A clean table format if applicable
-                4. Any notable insights
-                Keep the response concise and easy to understand."""
+    for msg in messages:
+        patched.append(msg)
+        if isinstance(msg, AIMessage) and msg.tool_calls:
+            for tc in msg.tool_calls:
+                if tc["id"] not in responded_tool_ids and tc["id"] not in injected_ids:
+                    patched.append(ToolMessage(
+                        tool_call_id=tc["id"],
+                        content="Tool call was interrupted and did not complete. Please retry.",
+                        name=tc["name"],
+                    ))
+                    injected_ids.add(tc["id"])
+                    print(f"Injected synthetic ToolMessage for dangling call: {tc['name']} ({tc['id']})")
 
-            response = llm.invoke(prompt)
-            return response.content
-        except Exception as e:
-            # Fallback to basic formatting
-            try:
-                parsed_data = json.loads(data)
-                if isinstance(parsed_data, list) and len(parsed_data) > 0:
-                    headers = list(parsed_data[0].keys())
-                    result = f"Found {len(parsed_data)} records:\n\n"
-                    result += " | ".join(headers) + "\n"
-                    result += "-" * (len(" | ".join(headers))) + "\n"
-                    for row in parsed_data[:10]:
-                        result += (
-                            " | ".join(str(row.get(h, "")) for h in headers) + "\n"
-                        )
-                    if len(parsed_data) > 10:
-                        result += f"\n... and {len(parsed_data) - 10} more records"
-                    return result
-                return str(data)
-            except Exception as e:
-                print(f"Error during basic formatting: {e}")
-                return str(data)
-
-    async def _arun(self, data: str) -> str:
-        return self._run(data)
+    return patched
 
 
-# Test ConnectorX connection directly
-try:
-    test_df = cx.read_sql(DB_URI, "SELECT 1 as test")
-except Exception as e:
-    print(f"ConnectorX test failed: {e}")
+@retry(
+    wait=wait_exponential(multiplier=2, min=4, max=60),
+    stop=stop_after_attempt(4),
+    retry=retry_if_exception_message(match=".*ThrottlingException.*"),
+    reraise=True,
+)
+def _stream_agent(agent, messages, config):
+    """Wrap agent.stream with throttling retry logic."""
+    result = None
+    for step in agent.stream(
+        {"messages": messages},
+        config=config,
+        stream_mode="values",
+    ):
+        result = step
+    return result
 
 
 def interact(
@@ -130,48 +142,55 @@ def interact(
     try:
         llm = ChatBedrockConverse(model_id=MODEL_ID, region_name=AWS_REGION)
 
-        conn = psycopg.connect(os.getenv("MEM_DB_URI"), autocommit=True)
-        memory = PostgresSaver(conn)
-
-        memory.setup()
-
-        db_uri = DB_URI.rsplit("/", 1)[0] + f"/{database}"
-
-        connectorx_tool = ConnectorXTool(db_uri)
+        connectorx_tool = ConnectorXTool(DB_URI)
         context_tool = ContextTool(page_context)
         tools = [connectorx_tool, context_tool]
-        agent = create_react_agent(llm, tools, checkpointer=memory)
 
         context_info = (
-            " IMPORTANT: When user asks about current context, data, or content, FIRST use 'context_retriever' tool and prioritize that data. Only use database queries as supplementary information if specifically requested."
+            " When user asks about current context, data, or content, FIRST use 'context_retriever' tool and prioritize that data. Only use database queries as supplementary information if specifically requested."
             if page_context
             else ""
         )
-        system_message = f"You are an AI assistant that can answer questions by retrieving data from databases.{context_info} Use 'connectorx_data_retriever' tool with SQL queries only."
 
-        config = {"configurable": {"thread_id": user_id}}
-
-        stream = agent.stream(
-            {
-                "messages": [
-                    {"role": "system", "content": system_message},
-                    {"role": "user", "content": message},
-                ]
-            },
-            config=config,
-            stream_mode="values",
+        system_message = (
+            f"You are a data analyst assistant that retrieves KPI data from a database.{context_info} "
+            "STRICT RULES:\n"
+            "1. Use 'connectorx_data_retriever' to run SQL queries.\n"
+            "2. Run a MAXIMUM of 3 queries per question. Do not explore tables unnecessarily.\n"
+            "3. If the first query returns data, answer immediately — do not run more queries unless the data is clearly insufficient.\n"
+            "4. If a query fails, try ONE alternative query then answer with what you have.\n"
+            "5. Never query the same table twice.\n"
+            "6. Do not look up column names before querying — use SELECT * with LIMIT 5 if unsure of schema.\n"
+            "7. Once you have data, stop querying and provide your answer.\n"
+            "Available table prefixes: mlw_ (Malawi), lib_ (Liberia), eth_ (Ethiopia), sl_ (Sierra Leone), gs_ (Global Scale)."
         )
 
-        for step in stream:
-            if "messages" in step and step["messages"]:
-                yield step["messages"][-1].content
+        # Version suffix ensures broken checkpoints are never reloaded
+        config = {"configurable": {"thread_id": f"{user_id}_{THREAD_VERSION}"}}
+
+        with PostgresSaver.from_conn_string(MEM_DB_URI) as memory:
+            memory.setup()
+            agent = create_react_agent(llm, tools, checkpointer=memory)
+
+            # Load history and patch any dangling tool calls
+            state = agent.get_state(config)
+            existing_messages = []
+            if state and state.values.get("messages"):
+                existing_messages = sanitize_message_history(state.values["messages"])
+
+            messages = existing_messages + [
+                {"role": "system", "content": system_message},
+                {"role": "user", "content": message},
+            ]
+
+            result = _stream_agent(agent, messages, config)
+            return result["messages"][-1].content
 
     except Exception as e:
         print(f"Error: {e}")
-        yield "An error occurred"
+        return "An error occurred"
 
 
-# Add this to agent.py
 def format_output(question: str, raw_data: str) -> str:
     try:
         llm = ChatBedrockConverse(model_id=MODEL_ID, region_name=AWS_REGION)
@@ -200,5 +219,4 @@ def format_output(question: str, raw_data: str) -> str:
 
 
 if __name__ == "__main__":
-    for response in interact("user1", "select 1 + 1"):
-        print(response)
+    print(interact("user1", "select 1 + 1"))

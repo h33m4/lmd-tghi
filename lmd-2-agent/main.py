@@ -52,11 +52,6 @@ def chat(request: ChatRequest) -> str:
     except Exception as e:
         print(f"Error converting page_context to XML: {e}")
 
-    messages = []
-    response = interact(user_id, message, page_context, database)
-
-    for msg in response:
-        messages.append(str(msg))
-
-    raw_output = "\n".join(messages) if messages else "No response generated"
-    return format_output(message, raw_output)
+    # interact() returns a string — pass it directly to format_output
+    raw_response = interact(user_id, message, page_context, database)
+    return format_output(message, raw_response)
